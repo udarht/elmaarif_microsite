@@ -9,7 +9,74 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RahmatHidayat&top=shortRound&hairColor=2c1b18&clothing=blazerAndShirt&clothingColor=0284c7&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
     "short_folder": "gdrive-dayat",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-INF-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Informatika Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-INF-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Informatika Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-INF-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Informatika Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-INF-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Informatika Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-INF-05",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Informatika Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-INF-06",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Informatika Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      }
+    ]
   },
   {
     "id_unit": 2,

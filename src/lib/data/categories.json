@@ -39,6 +39,6 @@
     "nama_kategori": "Jurnal Mengajar & Administrasi Kelas",
     "deskripsi": "Buku jurnal harian guru, presensi murid, dan catatan observasi perkembangan akhlak/akademik.",
     "ikon": "ClipboardList",
-    "wajib_supervisi": true
+    "wajib_supervisi": false
   }
 ]
