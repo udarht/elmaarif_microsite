@@ -2,12 +2,11 @@
 	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import { schoolConfig } from '#lib/utils/supervisi';
-	import { ExternalLink, ArrowRight, School, FileText, Folder, Sparkles } from '@lucide/svelte';
+	import { ExternalLink, School, FileText, Folder } from '@lucide/svelte';
 
 	let { data }: { data: PageData } = $props();
 
 	let countdown = $state(1);
-	let isRedirecting = $state(true);
 
 	onMount(() => {
 		const timer = setInterval(() => {
@@ -28,22 +27,22 @@
 	<meta http-equiv="refresh" content="1;url={data.targetUrl}" />
 </svelte:head>
 
-<div class="min-h-screen bg-slate-900 text-slate-100 flex flex-col items-center justify-center p-4 relative overflow-hidden font-sans">
-	<!-- Background subtle ambient glow -->
-	<div class="absolute -top-32 -left-32 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
-	<div class="absolute -bottom-32 -right-32 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="min-h-screen bg-slate-50 text-slate-800 flex flex-col items-center justify-center p-4 relative overflow-hidden font-sans">
+	<!-- Background subtle ambient clouds -->
+	<div class="absolute -top-32 -left-32 w-96 h-96 bg-sky-200/40 rounded-full blur-3xl pointer-events-none"></div>
+	<div class="absolute -bottom-32 -right-32 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl pointer-events-none"></div>
 
-	<div class="w-full max-w-md bg-slate-800/90 backdrop-blur-md rounded-3xl border border-slate-700/80 p-6 sm:p-8 shadow-2xl text-center space-y-6 animate-in fade-in zoom-in-95 duration-200">
+	<div class="w-full max-w-md bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-xl text-center space-y-6 animate-in fade-in zoom-in-95 duration-200">
 		<!-- School badge -->
-		<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+		<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold bg-sky-50 text-sky-700 border border-sky-200">
 			<School class="w-3.5 h-3.5" />
 			<span>{schoolConfig.nama_sekolah}</span>
 		</div>
 
 		<!-- Animated Icon -->
 		<div class="relative w-20 h-20 mx-auto flex items-center justify-center">
-			<div class="absolute inset-0 rounded-2xl bg-emerald-500/20 animate-ping"></div>
-			<div class="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center text-white shadow-lg shadow-emerald-500/30">
+			<div class="absolute inset-0 rounded-2xl bg-sky-400/20 animate-ping"></div>
+			<div class="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white shadow-lg shadow-sky-500/30">
 				{#if data.isFolder}
 					<Folder class="w-8 h-8" />
 				{:else}
@@ -54,15 +53,15 @@
 
 		<!-- Title & Info -->
 		<div class="space-y-2">
-			<h1 class="text-lg font-bold text-white leading-snug">
+			<h1 class="text-lg font-bold text-slate-900 leading-snug">
 				{data.title}
 			</h1>
-			<p class="text-xs text-slate-400">
-				Pendidik: <span class="font-semibold text-emerald-300">{data.teacher.nama_lengkap}</span>
+			<p class="text-xs text-slate-500">
+				Pendidik: <span class="font-bold text-sky-700">{data.teacher.nama_lengkap}</span>
 			</p>
 			{#if data.document}
-				<div class="flex items-center justify-center gap-1.5 text-[11px] text-slate-400">
-					<span class="px-2 py-0.5 rounded bg-slate-700/80 font-mono text-emerald-400">{data.document.tipe_file}</span>
+				<div class="flex items-center justify-center gap-1.5 text-[11px] text-slate-500">
+					<span class="px-2 py-0.5 rounded bg-sky-50 font-mono text-sky-700 border border-sky-200 font-bold">{data.document.tipe_file}</span>
 					<span>•</span>
 					<span>Target: {data.document.kelas_target}</span>
 				</div>
@@ -71,12 +70,12 @@
 
 		<!-- Countdown Progress Bar -->
 		<div class="space-y-2">
-			<div class="flex items-center justify-between text-xs text-slate-400">
+			<div class="flex items-center justify-between text-xs text-slate-500">
 				<span>Mengarahkan otomatis...</span>
-				<span class="font-mono text-emerald-400 font-bold">{countdown}s</span>
+				<span class="font-mono text-sky-600 font-bold">{countdown}s</span>
 			</div>
-			<div class="h-1.5 w-full bg-slate-700 rounded-full overflow-hidden">
-				<div class="h-full bg-emerald-400 rounded-full animate-pulse transition-all duration-500" style="width: 100%"></div>
+			<div class="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
+				<div class="h-full bg-sky-500 rounded-full animate-pulse transition-all duration-500" style="width: 100%"></div>
 			</div>
 		</div>
 
@@ -84,7 +83,7 @@
 		<div class="space-y-2 pt-2">
 			<a
 				href={data.targetUrl}
-				class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all shadow-lg shadow-emerald-500/20 active:scale-95"
+				class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs transition-all shadow-md shadow-sky-600/20 active:scale-95"
 			>
 				<span>Buka Berkas Sekarang</span>
 				<ExternalLink class="w-4 h-4" />
@@ -92,7 +91,7 @@
 
 			<a
 				href="/"
-				class="inline-block text-xs text-slate-400 hover:text-slate-200 transition-colors pt-2"
+				class="inline-block text-xs text-slate-400 hover:text-sky-600 transition-colors pt-2 font-medium"
 			>
 				Kembali ke Portal Supervisi
 			</a>

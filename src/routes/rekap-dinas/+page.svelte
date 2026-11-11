@@ -8,7 +8,7 @@
 		generateSupervisiCSV
 	} from '#lib/utils/supervisi';
 	import type { Teacher, Category, PerangkatAjar } from '#lib/types/supervisi';
-	import { ArrowLeft, Printer, Download, CheckCircle2, Clock, AlertCircle, School } from '@lucide/svelte';
+	import { ArrowLeft, Printer, Download } from '@lucide/svelte';
 
 	let stats = $derived(calculateSchoolStats(teachers));
 
@@ -38,12 +38,12 @@
 	<meta name="description" content="Laporan resmi rekapitulasi kelengkapan berkas perangkat ajar guru SMP El Ma'arif Boarding School TP 2026/2027 siap cetak." />
 </svelte:head>
 
-<div class="min-h-screen bg-slate-100 dark:bg-slate-950 text-slate-800 dark:text-slate-200 py-6 px-3 sm:px-6 font-sans">
+<div class="min-h-screen bg-slate-100 text-slate-800 py-6 px-3 sm:px-6 font-sans">
 	<!-- Screen-only Action Toolbar (Hidden during print) -->
 	<div class="max-w-5xl mx-auto mb-6 flex flex-wrap items-center justify-between gap-3 no-print">
 		<a
 			href="/"
-			class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-semibold text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors shadow-xs"
+			class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white border border-slate-200 text-xs font-semibold text-slate-700 hover:text-sky-700 transition-colors shadow-2xs"
 		>
 			<ArrowLeft class="w-4 h-4" />
 			<span>Kembali ke Dashboard Utama</span>
@@ -53,16 +53,16 @@
 			<button
 				type="button"
 				onclick={handleExportCSV}
-				class="cursor-pointer inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs transition-all shadow-xs"
+				class="cursor-pointer inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white border border-slate-200 hover:bg-sky-50 hover:border-sky-200 text-slate-700 hover:text-sky-700 font-semibold text-xs transition-all shadow-2xs"
 			>
-				<Download class="w-4 h-4 text-emerald-600" />
+				<Download class="w-4 h-4 text-sky-600" />
 				<span>Ekspor CSV</span>
 			</button>
 
 			<button
 				type="button"
 				onclick={handlePrint}
-				class="cursor-pointer inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition-all shadow-md active:scale-95"
+				class="cursor-pointer inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs transition-all shadow-md shadow-sky-600/20 active:scale-95"
 			>
 				<Printer class="w-4 h-4" />
 				<span>Cetak Laporan / Simpan PDF</span>
@@ -101,8 +101,8 @@
 			</p>
 		</div>
 
-		<!-- Ringkasan Statistik Eksekutif (Print-friendly format) -->
-		<div class="grid grid-cols-4 gap-2 mb-6 text-center text-xs border border-slate-300 rounded-xl p-3 bg-slate-50 print:bg-transparent">
+		<!-- Ringkasan Statistik Eksekutif -->
+		<div class="grid grid-cols-4 gap-2 mb-6 text-center text-xs border border-sky-200 rounded-xl p-3 bg-sky-50/50 print:bg-transparent print:border-slate-300">
 			<div>
 				<div class="text-[10px] text-slate-500 uppercase font-semibold">Total Guru</div>
 				<div class="text-base font-bold text-slate-900">{stats.totalGuru} Orang</div>
@@ -113,11 +113,11 @@
 			</div>
 			<div>
 				<div class="text-[10px] text-slate-500 uppercase font-semibold">Rata-rata Kesiapan</div>
-				<div class="text-base font-black text-emerald-700">{stats.rataRataKesiapan}%</div>
+				<div class="text-base font-black text-sky-700 print:text-slate-950">{stats.rataRataKesiapan}%</div>
 			</div>
 			<div>
 				<div class="text-[10px] text-slate-500 uppercase font-semibold">Predikat Kelayakan</div>
-				<div class="text-base font-black text-emerald-700">SANGAT BAIK (A)</div>
+				<div class="text-base font-black text-sky-700 print:text-slate-950">SANGAT BAIK (A)</div>
 			</div>
 		</div>
 
@@ -125,7 +125,7 @@
 		<div class="overflow-x-auto mb-8">
 			<table class="w-full text-left text-xs border-collapse border border-slate-300">
 				<thead>
-					<tr class="bg-slate-100 text-slate-900 font-bold uppercase text-[10px] tracking-wider text-center border-b border-slate-300 print:bg-slate-200">
+					<tr class="bg-sky-50 text-slate-900 font-bold uppercase text-[10px] tracking-wider text-center border-b border-slate-300 print:bg-slate-200">
 						<th class="border border-slate-300 py-2.5 px-2 w-10">No</th>
 						<th class="border border-slate-300 py-2.5 px-3 text-left min-w-[160px]">Nama Guru & Gelar</th>
 						<th class="border border-slate-300 py-2.5 px-3 text-left min-w-[130px]">Mata Pelajaran</th>
@@ -161,12 +161,12 @@
 								<td class="border border-slate-300 py-2 px-2 text-center font-bold">
 									{#if doc}
 										{#if doc.status_verifikasi === 'LENGKAP'}
-											<span class="text-emerald-700">✓</span>
+											<span class="text-sky-700 print:text-black">✓</span>
 										{:else}
-											<span class="text-amber-600">~</span>
+											<span class="text-amber-600 print:text-black">~</span>
 										{/if}
 									{:else}
-										<span class="text-slate-300">-</span>
+										<span class="text-slate-300 print:text-slate-400">-</span>
 									{/if}
 								</td>
 							{/each}
@@ -177,9 +177,9 @@
 
 							<td class="border border-slate-300 py-2 px-2 text-center">
 								{#if tStats.persentaseKelengkapan >= 100}
-									<span class="font-bold text-emerald-700">Lengkap</span>
+									<span class="font-bold text-sky-700 print:text-black">Lengkap</span>
 								{:else}
-									<span class="font-medium text-amber-700">Terpenuhi</span>
+									<span class="font-medium text-amber-700 print:text-black">Terpenuhi</span>
 								{/if}
 							</td>
 						</tr>
