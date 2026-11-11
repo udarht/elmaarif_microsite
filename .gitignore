@@ -3,6 +3,7 @@
 # ==========================================
 GEMINI.md
 AGENTS.md
+powershell.cmd
 .gemini/
 .agents/
 .system_generated/
