@@ -14,7 +14,7 @@
   "kepala_sekolah": {
     "nama": "Abdul Gani, M.Pd.",
     "nip": "198205142008011009",
-    "foto_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AbdulGani&clothing=blazerAndShirt&clothingColor=0369a1",
+    "foto_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AbdulGani&top=shortFlat&hairColor=2c1b18&clothing=blazerAndShirt&clothingColor=0369a1&mouth=smile&eyes=default",
     "sambutan_singkat": "Selamat datang di Portal e-Supervisi & Etalase Perangkat Ajar SMP S El Ma'arif Boarding School Tahun Pelajaran 2026/2027. Portal ini kami hadirkan sebagai bentuk transparansi, akuntabilitas, dan standarisasi mutu administrasi pembelajaran yang terintegrasi secara digital untuk memudahkan Tim Pengawas Sekolah dan Dinas Pendidikan."
   },
   "info_pengawas": {

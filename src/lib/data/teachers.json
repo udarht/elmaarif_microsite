@@ -6,7 +6,7 @@
     "gelar_status": "Guru Tersertifikasi (Gr.)",
     "mapel_diampu": ["Informatika", "Koding dan Kecerdasan Artifisial"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RahmatHidayat&clothing=blazerAndShirt&clothingColor=0284c7",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RahmatHidayat&top=shortRound&hairColor=2c1b18&clothing=blazerAndShirt&clothingColor=0284c7&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-pak-skom",
     "short_folder": "drive-skom",
     "perangkat_ajar": []
@@ -18,7 +18,7 @@
     "gelar_status": "Guru Mapel",
     "mapel_diampu": ["Pendidikan Agama Islam (PAI)", "Budaya Alam Minangkabau (BAM)"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=IsmyAzizah&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=IsmyAzizah&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-ismy",
     "short_folder": "drive-ismy",
     "perangkat_ajar": []
@@ -30,7 +30,7 @@
     "gelar_status": "Guru Tersertifikasi (Gr.)",
     "mapel_diampu": ["Bahasa Inggris"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=LutfhiLaila&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=LutfhiLaila&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-lutfhi",
     "short_folder": "drive-lutfhi",
     "perangkat_ajar": []
@@ -42,7 +42,7 @@
     "gelar_status": "Guru Tersertifikasi (Gr.)",
     "mapel_diampu": ["Matematika"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=WitriYanti&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=WitriYanti&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-witri",
     "short_folder": "drive-witri",
     "perangkat_ajar": []
@@ -54,7 +54,7 @@
     "gelar_status": "Guru Tersertifikasi (Gr.)",
     "mapel_diampu": ["Ilmu Pengetahuan Alam (IPA)"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggiaFitri&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggiaFitri&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-anggia",
     "short_folder": "drive-anggia",
     "perangkat_ajar": []
@@ -66,7 +66,7 @@
     "gelar_status": "Guru Mapel",
     "mapel_diampu": ["Prakarya", "Pendidikan Pancasila (PP)"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggunKurnia&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggunKurnia&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-anggun",
     "short_folder": "drive-anggun",
     "perangkat_ajar": []
@@ -78,7 +78,7 @@
     "gelar_status": "Guru Tersertifikasi (Gr.)",
     "mapel_diampu": ["Bahasa Indonesia"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RantiDwi&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RantiDwi&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-ranti",
     "short_folder": "drive-ranti",
     "perangkat_ajar": []
@@ -90,7 +90,7 @@
     "gelar_status": "Guru Tersertifikasi (Gr.)",
     "mapel_diampu": ["Ilmu Pengetahuan Sosial (IPS)"],
     "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
-    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=SofyaMurti&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=SofyaMurti&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-sofya",
     "short_folder": "drive-sofya",
     "perangkat_ajar": []
