@@ -105,9 +105,11 @@
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
 			<!-- Brand identity -->
 			<a href="/" class="flex items-center gap-3 group">
-				<div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-					<School class="w-5 h-5" />
-				</div>
+				<img
+					src="/assets/logosmpelmaarif.png"
+					alt="Logo SMP El Ma'arif"
+					class="w-10 h-10 object-contain drop-shadow-xs group-hover:scale-105 transition-transform shrink-0"
+				/>
 				<div>
 					<span class="font-extrabold text-base tracking-tight text-slate-900 block group-hover:text-sky-600 transition-colors">
 						e-Supervisi El Ma'arif

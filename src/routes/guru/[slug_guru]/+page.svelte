@@ -129,8 +129,9 @@
 
 					<div>
 						<h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">{teacher.nama_lengkap}</h1>
-						<p class="text-xs sm:text-sm text-sky-100 font-medium mt-1">
-							{schoolConfig.nama_sekolah}
+						<p class="text-xs sm:text-sm text-sky-100 font-medium mt-1 flex items-center justify-center md:justify-start gap-1.5">
+							<img src="/assets/logosmpelmaarif.png" alt="Logo SMP El Ma'arif" class="w-4 h-4 object-contain inline-block" />
+							<span>{schoolConfig.nama_sekolah}</span>
 						</p>
 					</div>
 

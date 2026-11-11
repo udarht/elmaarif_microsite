@@ -35,7 +35,7 @@
 	<div class="w-full max-w-md bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-xl text-center space-y-6 animate-in fade-in zoom-in-95 duration-200">
 		<!-- School badge -->
 		<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold bg-sky-50 text-sky-700 border border-sky-200">
-			<School class="w-3.5 h-3.5" />
+			<img src="/assets/logosmpelmaarif.png" alt="Logo SMP El Ma'arif" class="w-4 h-4 object-contain" />
 			<span>{schoolConfig.nama_sekolah}</span>
 		</div>
 

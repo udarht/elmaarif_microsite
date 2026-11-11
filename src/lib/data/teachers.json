@@ -100,7 +100,41 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=LutfhiLaila&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
     "short_folder": "gdrive-lutfhi",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-ENG-01",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Inggris Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-ENG-02",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Inggris Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-ENG-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Inggris Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      }
+    ]
   },
   {
     "id_unit": 4,

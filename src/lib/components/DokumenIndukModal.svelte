@@ -29,9 +29,11 @@
 			</button>
 
 			<div class="flex items-center gap-3 mb-6">
-				<div class="p-3 rounded-2xl bg-sky-100 text-sky-600">
-					<FileText class="w-6 h-6" />
-				</div>
+				<img
+					src="/assets/logosmpelmaarif.png"
+					alt="Logo SMP El Ma'arif"
+					class="w-12 h-12 object-contain bg-sky-50 p-1 rounded-2xl border border-sky-200 shrink-0 shadow-2xs"
+				/>
 				<div>
 					<h3 class="text-xl font-bold text-slate-900">Dokumen Induk Satuan Pendidikan</h3>
 					<p class="text-xs text-slate-500">SMP El Ma'arif Boarding School • TP 2026/2027</p>

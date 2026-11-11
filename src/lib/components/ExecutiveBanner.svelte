@@ -36,9 +36,11 @@
 
 			<div>
 				<h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white flex items-center gap-3">
-					<div class="p-2 rounded-2xl bg-white/20 backdrop-blur-md border border-white/30 text-white shrink-0 hidden sm:inline-flex">
-						<School class="w-7 h-7" />
-					</div>
+					<img
+						src="/assets/logosmpelmaarif.png"
+						alt="Logo SMP El Ma'arif"
+						class="w-12 h-12 sm:w-14 sm:h-14 object-contain bg-white/20 p-1 rounded-2xl backdrop-blur-md border border-white/30 shrink-0 hidden sm:inline-flex shadow-md"
+					/>
 					<span>{schoolConfig.nama_sekolah}</span>
 				</h1>
 				<div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sky-100 text-xs sm:text-sm mt-1.5 font-mono">

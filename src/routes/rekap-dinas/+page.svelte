@@ -73,19 +73,27 @@
 	<!-- Printable Official Document Container -->
 	<div class="max-w-5xl mx-auto bg-white text-slate-900 rounded-3xl shadow-lg border border-slate-200 p-8 sm:p-12 print:shadow-none print:border-none print:p-0 print:rounded-none print:max-w-full">
 		<!-- Kop Surat Resmi Sekolah -->
-		<div class="border-b-4 border-double border-slate-800 pb-4 mb-6 text-center space-y-1">
-			<h3 class="text-xs uppercase tracking-widest font-bold text-slate-600">
-				Yayasan Pendidikan Islam El Ma'arif
-			</h3>
-			<h1 class="text-2xl sm:text-3xl font-black uppercase tracking-tight text-slate-950 font-serif">
-				{schoolConfig.nama_sekolah}
-			</h1>
-			<p class="text-xs text-slate-600">
-				NPSN: {schoolConfig.npsn} • Status: {schoolConfig.status || 'Swasta'} • {schoolConfig.alamat}
-			</p>
-			<p class="text-[11px] text-slate-500 font-mono">
-				Telp: {schoolConfig.kontak?.telepon} • Email: {schoolConfig.kontak?.email} • Website: {schoolConfig.kontak?.website}
-			</p>
+		<div class="border-b-4 border-double border-slate-800 pb-4 mb-6 flex items-center justify-between gap-4">
+			<img
+				src="/assets/logosmpelmaarif.png"
+				alt="Logo SMP El Ma'arif"
+				class="w-20 h-20 object-contain shrink-0"
+			/>
+			<div class="text-center space-y-0.5 flex-1">
+				<h3 class="text-xs uppercase tracking-widest font-bold text-slate-600">
+					Yayasan Pendidikan Islam El Ma'arif
+				</h3>
+				<h1 class="text-xl sm:text-2xl font-black uppercase tracking-tight text-slate-950 font-serif">
+					{schoolConfig.nama_sekolah}
+				</h1>
+				<p class="text-[11px] text-slate-600">
+					NPSN: {schoolConfig.npsn} • Status: {schoolConfig.status || 'Swasta'} • {schoolConfig.alamat}
+				</p>
+				<p class="text-[10px] text-slate-500 font-mono">
+					Telp: {schoolConfig.kontak?.telepon} • Email: {schoolConfig.kontak?.email} • Website: {schoolConfig.kontak?.website}
+				</p>
+			</div>
+			<div class="w-20 shrink-0 hidden sm:block"></div>
 		</div>
 
 		<!-- Judul Laporan & Metadata -->
