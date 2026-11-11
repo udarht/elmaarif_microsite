@@ -1,20 +1,21 @@
 {
   "sekolah_id": 1,
-  "nama_sekolah": "SMP El Ma'arif Boarding School",
-  "npsn": "69992341",
+  "nama_sekolah": "SMP S El Ma'arif Boarding School",
+  "npsn": "69979463",
+  "status": "Swasta",
   "tahun_pelajaran": "2026/2027",
   "semester": "Ganjil",
-  "alamat": "Jl. Raya Cendekia No. 09, Kawasan Terpadu Pendidikan El Ma'arif",
+  "alamat": "Jorong Sukomananti, Desa/Kelurahan Aua Kuniang, Kecamatan Pasaman, Kabupaten Pasaman Barat, Sumatera Barat",
   "kontak": {
-    "email": "info@elmaarif.sch.id",
-    "telepon": "(021) 8899-7766",
-    "website": "https://supervisi.adayu.id"
+    "email": "smp@elmaarifpasbar.sch.id / smpembs@gmail.com",
+    "telepon": "081265062404",
+    "website": "https://elmaarifpasbar.sch.id"
   },
   "kepala_sekolah": {
     "nama": "Abdul Gani, M.Pd.",
     "nip": "198205142008011009",
-    "foto_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=KepsekFauzi",
-    "sambutan_singkat": "Selamat datang di Portal e-Supervisi & Etalase Perangkat Ajar SMP El Ma'arif Boarding School Tahun Pelajaran 2026/2027. Portal ini kami hadirkan sebagai bentuk transparansi, akuntabilitas, dan standarisasi mutu administrasi pembelajaran yang terintegrasi secara digital untuk memudahkan Tim Pengawas Sekolah dan Dinas Pendidikan."
+    "foto_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AbdulGani&clothing=blazerAndShirt&clothingColor=0369a1",
+    "sambutan_singkat": "Selamat datang di Portal e-Supervisi & Etalase Perangkat Ajar SMP S El Ma'arif Boarding School Tahun Pelajaran 2026/2027. Portal ini kami hadirkan sebagai bentuk transparansi, akuntabilitas, dan standarisasi mutu administrasi pembelajaran yang terintegrasi secara digital untuk memudahkan Tim Pengawas Sekolah dan Dinas Pendidikan."
   },
   "info_pengawas": {
     "pesan_selamat_datang": "Portal ini dirancang untuk mempermudah Bapak/Ibu Pengawas Pembina dan Dinas Pendidikan dalam meninjau kelengkapan administrasi guru tanpa batasan ruang dan waktu.",

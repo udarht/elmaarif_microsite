@@ -32,6 +32,7 @@ export interface SchoolConfig {
 	sekolah_id: number;
 	nama_sekolah: string;
 	npsn: string;
+	status?: string;
 	tahun_pelajaran: string;
 	semester: string;
 	alamat?: string;

@@ -24,6 +24,11 @@
 					<ShieldCheck class="w-3.5 h-3.5 text-sky-200" />
 					Portal Resmi Pengawas & Dinas Pendidikan
 				</span>
+				{#if schoolConfig.status}
+					<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-white/20 text-white border border-white/30 backdrop-blur-sm">
+						Status: {schoolConfig.status}
+					</span>
+				{/if}
 				<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-black/15 text-sky-100 border border-white/15">
 					TP {schoolConfig.tahun_pelajaran} • Semester {schoolConfig.semester}
 				</span>

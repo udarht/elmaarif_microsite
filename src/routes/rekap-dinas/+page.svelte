@@ -81,10 +81,10 @@
 				{schoolConfig.nama_sekolah}
 			</h1>
 			<p class="text-xs text-slate-600">
-				NPSN: {schoolConfig.npsn} • {schoolConfig.alamat}
+				NPSN: {schoolConfig.npsn} • Status: {schoolConfig.status || 'Swasta'} • {schoolConfig.alamat}
 			</p>
 			<p class="text-[11px] text-slate-500 font-mono">
-				Website: {schoolConfig.kontak?.website || 'https://supervisi.adayu.id'} • Email: {schoolConfig.kontak?.email || 'info@elmaarif.sch.id'}
+				Telp: {schoolConfig.kontak?.telepon} • Email: {schoolConfig.kontak?.email} • Website: {schoolConfig.kontak?.website}
 			</p>
 		</div>
 
