@@ -181,8 +181,8 @@
 					<div class="p-5 rounded-3xl bg-white border border-slate-200 hover:border-sky-400 transition-all shadow-xs space-y-4 flex flex-col justify-between">
 						<div class="space-y-2">
 							<div class="flex items-center justify-between gap-2">
-								<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-sky-100 text-sky-800">
-									{doc.tipe_file}
+								<span class="text-[10px] font-bold px-2 py-0.5 rounded {doc.tipe_file === 'GDRIVE_FOLDER' ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-sky-100 text-sky-800'}">
+									{doc.tipe_file === 'GDRIVE_FOLDER' ? 'Folder Drive' : doc.tipe_file}
 								</span>
 								<span class="text-[10px] px-2 py-0.5 rounded bg-slate-100 text-slate-600 font-medium">
 									{doc.kelas_target}
@@ -232,10 +232,16 @@
 								<button
 									type="button"
 									onclick={() => handlePreview(doc)}
-									class="cursor-pointer inline-flex items-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all shadow-xs active:scale-95"
+									class="cursor-pointer inline-flex items-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold {doc.tipe_file === 'GDRIVE_FOLDER' ? 'bg-amber-600 hover:bg-amber-500' : 'bg-sky-600 hover:bg-sky-500'} text-white transition-all shadow-xs active:scale-95"
+									title={doc.tipe_file === 'GDRIVE_FOLDER' ? 'Pratinjau Folder Google Drive' : 'Pratinjau Dokumen'}
 								>
-									<Eye class="w-3.5 h-3.5" />
-									<span>Pratinjau</span>
+									{#if doc.tipe_file === 'GDRIVE_FOLDER'}
+										<Folder class="w-3.5 h-3.5" />
+										<span>Pratinjau Folder</span>
+									{:else}
+										<Eye class="w-3.5 h-3.5" />
+										<span>Pratinjau</span>
+									{/if}
 								</button>
 
 								<a

@@ -174,8 +174,8 @@
 								<div class="p-3.5 rounded-2xl border border-slate-200 bg-slate-50 hover:border-sky-300 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3">
 									<div class="space-y-1 min-w-0 flex-1">
 										<div class="flex flex-wrap items-center gap-1.5">
-											<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-sky-100 text-sky-800">
-												{doc.tipe_file}
+											<span class="text-[10px] font-bold px-2 py-0.5 rounded {doc.tipe_file === 'GDRIVE_FOLDER' ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-sky-100 text-sky-800'}">
+												{doc.tipe_file === 'GDRIVE_FOLDER' ? 'Folder Drive' : doc.tipe_file}
 											</span>
 											<span class="text-[10px] px-1.5 py-0.2 rounded bg-slate-200 text-slate-700">
 												{doc.kelas_target}
@@ -196,11 +196,16 @@
 										<button
 											type="button"
 											onclick={() => onPreviewDoc(doc, teacher)}
-											class="cursor-pointer inline-flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all active:scale-95 shadow-xs"
-											title="Pratinjau Dokumen (Embed Drawer)"
+											class="cursor-pointer inline-flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-semibold {doc.tipe_file === 'GDRIVE_FOLDER' ? 'bg-amber-600 hover:bg-amber-500' : 'bg-sky-600 hover:bg-sky-500'} text-white transition-all active:scale-95 shadow-xs"
+											title={doc.tipe_file === 'GDRIVE_FOLDER' ? 'Pratinjau Folder Google Drive' : 'Pratinjau Dokumen (Embed Drawer)'}
 										>
-											<Eye class="w-3.5 h-3.5" />
-											<span class="hidden md:inline">Pratinjau</span>
+											{#if doc.tipe_file === 'GDRIVE_FOLDER'}
+												<Folder class="w-3.5 h-3.5" />
+												<span class="hidden md:inline">Pratinjau Folder</span>
+											{:else}
+												<Eye class="w-3.5 h-3.5" />
+												<span class="hidden md:inline">Pratinjau</span>
+											{/if}
 										</button>
 
 										<!-- QR Code Button -->
