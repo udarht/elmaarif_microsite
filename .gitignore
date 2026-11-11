@@ -1,0 +1,57 @@
+# ==========================================
+# File Konfigurasi AI & Panduan Lokal (Sensitif)
+# ==========================================
+GEMINI.md
+AGENTS.md
+.gemini/
+.agents/
+.system_generated/
+scratch/
+
+# ==========================================
+# Environment & Secret Files
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+*.local
+
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+vendor/
+.pnp
+.pnp.js
+
+# ==========================================
+# Build & Output
+# ==========================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+
+# ==========================================
+# Logs & Runtime
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

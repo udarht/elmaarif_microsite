@@ -5,14 +5,17 @@
 
 ---
 
-## 1. 🚨 PRINSIP ISOLASI TOTAL (STRICT ISOLATION)
-1. **Tidak Mencampuradukkan Sistem:**
+## 1. 🚨 PRINSIP ISOLASI TOTAL & KEAMANAN GIT
+1. **Larangan Keras Git Commit & Git Push:**
+   - DILARANG KERAS menjalankan perintah `git commit` dan APALAGI `git push`.
+   - Agen hanya diperbolehkan membantu penulisan kode, penyesuaian file, atau pengecekan lokal. Proses commit dan push sepenuhnya adalah otoritas manual oleh User.
+2. **Tidak Mencampuradukkan Sistem:**
    - Folder dan workspace ini **hanya** untuk proyek `elmaarif_microsite`.
    - DILARANG mengimpor, mereferensikan, menyalin asumsi, atau menggabungkan arsitektur, basis data, konfigurasi, token, atau logika bisnis dari aplikasi lain (baik proyek induk `saas_adayu`, aplikasi saas lain, maupun proyek sampingan) ke dalam folder ini tanpa instruksi eksplisit tertulis dari User.
-2. **Kemandirian Workspace (Self-Contained):**
+3. **Kemandirian Workspace (Self-Contained):**
    - Semua dependensi, konfigurasi environment (`.env`), skrip build, aset, dan dokumentasi harus berada di dalam root folder `elmaarif_microsite`.
    - Jangan menyentuh, mengubah, atau membuat dependensi ke folder di luar workspace ini (`../` atau folder tetangga).
-3. **Pembersihan Konteks / Anti-Hallucination:**
+4. **Pembersihan Konteks / Anti-Hallucination:**
    - Jangan mengasumsikan fitur, skema tabel, atau alur kerja dari aplikasi lain yang pernah dirancang di sesi-sesi sebelumnya.
    - Bila ragu mengenai kebutuhan spesifik `elmaarif_microsite`, selalu tanyakan dan konfirmasi ke User terlebih dahulu.
 
