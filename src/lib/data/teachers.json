@@ -1,0 +1,601 @@
+[
+  {
+    "id_unit": 1,
+    "slug_guru": "pak-skom",
+    "nama_lengkap": "Rahmat Hidayat, S.Kom. Gr.",
+    "gelar_status": "Guru Tersertifikasi (Gr.)",
+    "mapel_diampu": ["Informatika", "Koding dan Kecerdasan Artifisial"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=PakSKom",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-pak-skom",
+    "short_folder": "drive-skom",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-01-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP & Penurunan CP Informatika Fase D (Kelas 7, 8, 9)",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-inf/view",
+        "short_slug": "atp-inf-d",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-05"
+      },
+      {
+        "id_dokumen": "DOC-01-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Informatika Kelas VII - Berpikir Komputasional & Algoritma",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-inf7/view",
+        "short_slug": "modul-inf-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-08"
+      },
+      {
+        "id_dokumen": "DOC-01-03",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Koding & Kecerdasan Artifisial Kelas VIII - Pengenalan Machine Learning & Prompting",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-ai8/view",
+        "short_slug": "modul-ai-8",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      },
+      {
+        "id_dokumen": "DOC-01-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan & Semester Informatika Gasal/Genap 2026/2027",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-prota-inf/view",
+        "short_slug": "prota-inf",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-02"
+      },
+      {
+        "id_dokumen": "DOC-01-05",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Rubrik & Bank Soal Asesmen Diagnostik & Sumatif Informatika Semester 1",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-inf/view",
+        "short_slug": "asesmen-inf-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-01-06",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Cara Kerja Komponen Komputer - Eksplorasi Visual 3D Real-time & Simulasi Alur Siklus Pemrosesan Data (IPOS)",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "INTERAKTIF_3D",
+        "target_url": "https://komputer-3d.adayu.id",
+        "short_slug": "media-komputer-3d",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-10"
+      },
+      {
+        "id_dokumen": "DOC-01-07",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Jurnal Mengajar Harian & Presensi Kelas Digital Informatika",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-inf/view",
+        "short_slug": "jurnal-inf",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id_unit": 2,
+    "slug_guru": "ismy-azizah",
+    "nama_lengkap": "Ismy Azizah, S.Pd.",
+    "gelar_status": "Guru Mapel",
+    "mapel_diampu": ["Matematika"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=IsmyAzizah",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-ismy",
+    "short_folder": "drive-ismy",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-02-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP & Pemetaan Capaian Pembelajaran Matematika Fase D",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-mat/view",
+        "short_slug": "atp-mat-d",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-04"
+      },
+      {
+        "id_dokumen": "DOC-02-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Matematika - Bilangan Bulat & Pecahan (Pendekatan Kontekstual)",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-mat7/view",
+        "short_slug": "modul-mat-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-07"
+      },
+      {
+        "id_dokumen": "DOC-02-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan & Semester Matematika TP 2026/2027",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-mat/view",
+        "short_slug": "prota-mat-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-03"
+      },
+      {
+        "id_dokumen": "DOC-02-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Formatif Diagnostic & Rubrik Asesmen Sumatif Bab Aljabar",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-mat/view",
+        "short_slug": "asesmen-mat-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-02-05",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Interaktif Geogebra & LKPD Digital Bilangan Pecahan",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "CANVA",
+        "target_url": "https://canva.com/design/sample-mat-media/view",
+        "short_slug": "media-mat-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      },
+      {
+        "id_dokumen": "DOC-02-06",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Buku Jurnal Agenda Pembelajaran & Remedial Matematika",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-mat/view",
+        "short_slug": "jurnal-mat-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-08"
+      }
+    ]
+  },
+  {
+    "id_unit": 3,
+    "slug_guru": "lutfhi-laila-adhi",
+    "nama_lengkap": "Lutfhi Laila Adhi, S.Pd, Gr.",
+    "gelar_status": "Guru Tersertifikasi (Gr.)",
+    "mapel_diampu": ["Bahasa Indonesia"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas IX"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=LutfhiLaila",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-lutfhi",
+    "short_folder": "drive-lutfhi",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-03-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "Alur Tujuan Pembelajaran (ATP) Bahasa Indonesia Fase D",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-indo/view",
+        "short_slug": "atp-indo-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-03"
+      },
+      {
+        "id_dokumen": "DOC-03-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Teks Deskripsi & Cerita Fantasi Berbasis Literasi Digital",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-indo7/view",
+        "short_slug": "modul-indo-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-07"
+      },
+      {
+        "id_dokumen": "DOC-03-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan dan Semester Bahasa Indonesia TP 2026/2027",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-indo/view",
+        "short_slug": "prota-indo",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-02"
+      },
+      {
+        "id_dokumen": "DOC-03-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Instrumen Penilaian Kinerja Menulis Teks Deskriptif",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-indo/view",
+        "short_slug": "asesmen-indo-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-03-05",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Jurnal Refleksi Pembelajaran & Catatan Portofolio Karya Murid",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-indo/view",
+        "short_slug": "jurnal-indo",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      }
+    ]
+  },
+  {
+    "id_unit": 4,
+    "slug_guru": "witri-yanti",
+    "nama_lengkap": "Witri Yanti, S.Pd, Gr.",
+    "gelar_status": "Guru Tersertifikasi (Gr.)",
+    "mapel_diampu": ["Ilmu Pengetahuan Alam (IPA)"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=WitriYanti",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-witri",
+    "short_folder": "drive-witri",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-04-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP Ilmu Pengetahuan Alam Fase D - Integrasi Kurikulum Merdeka",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-ipa/view",
+        "short_slug": "atp-ipa-d",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-04"
+      },
+      {
+        "id_dokumen": "DOC-04-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPA - Hakikat Sains, Metode Ilmiah & Pengukuran Laboratorium",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-ipa7/view",
+        "short_slug": "modul-ipa-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-07"
+      },
+      {
+        "id_dokumen": "DOC-04-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Prota & Promes IPA Semester Ganjil & Genap 2026/2027",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-ipa/view",
+        "short_slug": "prota-ipa-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-03"
+      },
+      {
+        "id_dokumen": "DOC-04-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Format Lembar Pengamatan Sikap Ilmiah & Rubrik Praktikum IPA",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-ipa/view",
+        "short_slug": "asesmen-ipa-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-04-05",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Slide Pembelajaran Interaktif Sel & Mikroskop (Canva Edu)",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "CANVA",
+        "target_url": "https://canva.com/design/sample-ipa-media/view",
+        "short_slug": "media-ipa-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-08"
+      },
+      {
+        "id_dokumen": "DOC-04-06",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Jurnal Kemajuan Pembelajaran & Catatan Praktikum Sains",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-ipa/view",
+        "short_slug": "jurnal-ipa-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      }
+    ]
+  },
+  {
+    "id_unit": 5,
+    "slug_guru": "anggia-fitri-yuni",
+    "nama_lengkap": "Anggia Fitri Yuni, S.Pd, Gr.",
+    "gelar_status": "Guru Tersertifikasi (Gr.)",
+    "mapel_diampu": ["Bahasa Inggris"],
+    "fase_kelas": ["Fase D", "Kelas VIII", "Kelas IX"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggiaFitri",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-anggia",
+    "short_folder": "drive-anggia",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-05-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP English for Nusantara - Communicative Approach Fase D",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-bing/view",
+        "short_slug": "atp-bing-8",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-04"
+      },
+      {
+        "id_dokumen": "DOC-05-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar English Grade 8 - Daily Routines and Boarding Life",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-bing8/view",
+        "short_slug": "modul-bing-8",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-08"
+      },
+      {
+        "id_dokumen": "DOC-05-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Annual & Semester Teaching Program English 2026/2027",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-bing/view",
+        "short_slug": "prota-bing-8",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-03"
+      },
+      {
+        "id_dokumen": "DOC-05-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Speaking Assessment Rubric & Listening Comprehension Quiz",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-bing/view",
+        "short_slug": "asesmen-bing-8",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-07"
+      },
+      {
+        "id_dokumen": "DOC-05-05",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Teacher's Logbook & Student Speaking Progress Record",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-bing/view",
+        "short_slug": "jurnal-bing-8",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      }
+    ]
+  },
+  {
+    "id_unit": 6,
+    "slug_guru": "anggun-kurnia",
+    "nama_lengkap": "Anggun Kurnia, S.Pd.",
+    "gelar_status": "Guru Mapel",
+    "mapel_diampu": ["Ilmu Pengetahuan Sosial (IPS)"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas IX"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggunKurnia",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-anggun",
+    "short_folder": "drive-anggun",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-06-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP Ilmu Pengetahuan Sosial (IPS) Terpadu Fase D",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-ips/view",
+        "short_slug": "atp-ips-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-04"
+      },
+      {
+        "id_dokumen": "DOC-06-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPS Kelas VII - Interaksi Sosial & Dinamika Keruangan Nusantara",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-ips7/view",
+        "short_slug": "modul-ips-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-07"
+      },
+      {
+        "id_dokumen": "DOC-06-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan dan Semester IPS SMP El Ma'arif 2026/2027",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-ips/view",
+        "short_slug": "prota-ips-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-02"
+      },
+      {
+        "id_dokumen": "DOC-06-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Instrumen Asesmen Penugasan Proyek Sosiodrama & Portofolio",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-ips/view",
+        "short_slug": "asesmen-ips-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-06-05",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Jurnal Mengajar Guru IPS & Lembar Observasi Partisipasi Santri",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-ips/view",
+        "short_slug": "jurnal-ips-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      }
+    ]
+  },
+  {
+    "id_unit": 7,
+    "slug_guru": "ranti-dwi-sarlin",
+    "nama_lengkap": "Ranti Dwi Sarlin, S.Pd, Gr.",
+    "gelar_status": "Guru Tersertifikasi (Gr.)",
+    "mapel_diampu": ["Pendidikan Agama Islam dan Budi Pekerti"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII", "Kelas IX"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RantiDwi",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-ranti",
+    "short_folder": "drive-ranti",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-07-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP Pendidikan Agama Islam & Budi Pekerti Terintegrasi Nilai Pesantren",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-pai/view",
+        "short_slug": "atp-pai-d",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-03"
+      },
+      {
+        "id_dokumen": "DOC-07-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar PAI Kelas VII - Meneladani Akhlak Mulia & Fiqih Ibadah",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-pai7/view",
+        "short_slug": "modul-pai-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-08"
+      },
+      {
+        "id_dokumen": "DOC-07-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Prota dan Promes PAI & Budi Pekerti TP 2026/2027",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-pai/view",
+        "short_slug": "prota-pai",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-02"
+      },
+      {
+        "id_dokumen": "DOC-07-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Instrumen Penilaian Praktik Shalat, Tahsin Al-Qur'an & Penilaian Sikap",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-pai/view",
+        "short_slug": "asesmen-pai-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-07-05",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Infografis & Video Tutorial Thaharah dan Shalat Jamak Qashar",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "CANVA",
+        "target_url": "https://canva.com/design/sample-pai-media/view",
+        "short_slug": "media-pai-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      },
+      {
+        "id_dokumen": "DOC-07-06",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Buku Jurnal Pembiasaan Ibadah Harian Santri & Mutabaah Yaumiyah",
+        "kelas_target": "Semua Kelas",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-pai/view",
+        "short_slug": "jurnal-pai",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-10"
+      }
+    ]
+  },
+  {
+    "id_unit": 8,
+    "slug_guru": "sofya-murti-lubis",
+    "nama_lengkap": "Sofya Murti Lubis, S.Pd, Gr.",
+    "gelar_status": "Guru Tersertifikasi (Gr.)",
+    "mapel_diampu": ["Pendidikan Pancasila"],
+    "fase_kelas": ["Fase D", "Kelas VII", "Kelas VIII"],
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=SofyaMurti",
+    "folder_utama_url": "https://drive.google.com/drive/folders/sample-gdrive-sofya",
+    "short_folder": "drive-sofya",
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-08-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "ATP Pendidikan Pancasila Fase D Berbasis Profil Pelajar Pancasila",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-atp-pancasila/view",
+        "short_slug": "atp-pancasila-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-03"
+      },
+      {
+        "id_dokumen": "DOC-08-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Pancasila - Norma, Hak, dan Kewajiban dalam Bermasyarakat",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-modul-pancasila7/view",
+        "short_slug": "modul-pancasila-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-07"
+      },
+      {
+        "id_dokumen": "DOC-08-03",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Prota & Promes Pendidikan Pancasila TP 2026/2027",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-prota-pancasila/view",
+        "short_slug": "prota-pancasila-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-02"
+      },
+      {
+        "id_dokumen": "DOC-08-04",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Rubrik Penilaian Sikap Kewarganegaraan & Lembar Kerja Analisis Kasus",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "PDF",
+        "target_url": "https://drive.google.com/file/d/sample-asesmen-pancasila/view",
+        "short_slug": "asesmen-pancasila-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-06"
+      },
+      {
+        "id_dokumen": "DOC-08-05",
+        "kode_kategori": "JURNAL_GURU",
+        "judul_dokumen": "Jurnal Mengajar & Catatan Evaluasi Karakter Kewarganegaraan Siswa",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GSHEET",
+        "target_url": "https://docs.google.com/spreadsheets/d/sample-jurnal-pancasila/view",
+        "short_slug": "jurnal-pancasila-7",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-09"
+      }
+    ]
+  }
+]

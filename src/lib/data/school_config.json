@@ -1,0 +1,53 @@
+{
+  "sekolah_id": 1,
+  "nama_sekolah": "SMP El Ma'arif Boarding School",
+  "npsn": "69992341",
+  "tahun_pelajaran": "2026/2027",
+  "semester": "Ganjil",
+  "alamat": "Jl. Raya Cendekia No. 09, Kawasan Terpadu Pendidikan El Ma'arif",
+  "kontak": {
+    "email": "info@elmaarif.sch.id",
+    "telepon": "(021) 8899-7766",
+    "website": "https://supervisi.adayu.id"
+  },
+  "kepala_sekolah": {
+    "nama": "Abdul Gani, M.Pd.",
+    "nip": "198205142008011009",
+    "foto_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=KepsekFauzi",
+    "sambutan_singkat": "Selamat datang di Portal e-Supervisi & Etalase Perangkat Ajar SMP El Ma'arif Boarding School Tahun Pelajaran 2026/2027. Portal ini kami hadirkan sebagai bentuk transparansi, akuntabilitas, dan standarisasi mutu administrasi pembelajaran yang terintegrasi secara digital untuk memudahkan Tim Pengawas Sekolah dan Dinas Pendidikan."
+  },
+  "info_pengawas": {
+    "pesan_selamat_datang": "Portal ini dirancang untuk mempermudah Bapak/Ibu Pengawas Pembina dan Dinas Pendidikan dalam meninjau kelengkapan administrasi guru tanpa batasan ruang dan waktu.",
+    "panduan_akses_cepat": "Gunakan filter instan (Mapel, Kelas, atau Kategori Dokumen), klik kartu guru untuk membuka drawer berkas lengkap, atau gunakan 'Tabel Matriks Supervisi' untuk rekapitulasi cepat kelengkapan seluruh dewan guru."
+  },
+  "dokumen_induk_sekolah": [
+    {
+      "id": "DOK-INDUK-01",
+      "judul": "Kurikulum Operasional Satuan Pendidikan (KOSP) 2026/2027",
+      "tipe": "PDF",
+      "url": "https://drive.google.com/drive/folders/sample-kosp-2026",
+      "deskripsi": "Dokumen acuan implementasi kurikulum merdeka satuan pendidikan terpadu."
+    },
+    {
+      "id": "DOK-INDUK-02",
+      "judul": "Kalender Pendidikan SMP El Ma'arif TP 2026/2027",
+      "tipe": "PDF",
+      "url": "https://drive.google.com/drive/folders/sample-kaldik-2026",
+      "deskripsi": "Distribusi pekan efektif, jadwal ujian asesmen sumatif, dan agenda kegiatan boarding."
+    },
+    {
+      "id": "DOK-INDUK-03",
+      "judul": "SK Pembagian Tugas Guru & Tenaga Kependidikan",
+      "tipe": "PDF",
+      "url": "https://drive.google.com/drive/folders/sample-sk-tugas-2026",
+      "deskripsi": "Surat Keputusan resmi pembagian beban jam mengajar dan tugas tambahan tahun ajaran 2026/2027."
+    },
+    {
+      "id": "DOK-INDUK-04",
+      "judul": "Jadwal Pelajaran Umum & Pembiasaan Boarding",
+      "tipe": "GSHEET",
+      "url": "https://drive.google.com/drive/folders/sample-jadwal-2026",
+      "deskripsi": "Matriks jam pembelajaran kelas formal terintegrasi program kepesantrenan."
+    }
+  ]
+}

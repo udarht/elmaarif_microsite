@@ -1,0 +1,70 @@
+# ===================================================
+# Cloudflare Pages Edge Redirects Rules (_redirects)
+# Generated automatically by scripts/generate-redirects.js
+# ===================================================
+
+# Dokumen Induk Satuan Pendidikan
+/kosp https://drive.google.com/drive/folders/sample-kosp-2026 302
+/kaldik https://drive.google.com/drive/folders/sample-kaldik-2026 302
+/sk-tugas https://drive.google.com/drive/folders/sample-sk-tugas-2026 302
+/jadwal https://drive.google.com/drive/folders/sample-jadwal-2026 302
+
+# Shortlink Folder Utama Dewan Guru
+/s/drive-skom https://drive.google.com/drive/folders/sample-gdrive-pak-skom 302
+/s/drive-ismy https://drive.google.com/drive/folders/sample-gdrive-ismy 302
+/s/drive-lutfhi https://drive.google.com/drive/folders/sample-gdrive-lutfhi 302
+/s/drive-witri https://drive.google.com/drive/folders/sample-gdrive-witri 302
+/s/drive-anggia https://drive.google.com/drive/folders/sample-gdrive-anggia 302
+/s/drive-anggun https://drive.google.com/drive/folders/sample-gdrive-anggun 302
+/s/drive-ranti https://drive.google.com/drive/folders/sample-gdrive-ranti 302
+/s/drive-sofya https://drive.google.com/drive/folders/sample-gdrive-sofya 302
+
+# Shortlink Dokumen Perangkat Ajar
+/s/atp-inf-d https://drive.google.com/file/d/sample-atp-inf/view 302
+/s/modul-inf-7 https://drive.google.com/file/d/sample-modul-inf7/view 302
+/s/modul-ai-8 https://drive.google.com/file/d/sample-modul-ai8/view 302
+/s/prota-inf https://docs.google.com/spreadsheets/d/sample-prota-inf/view 302
+/s/asesmen-inf-7 https://drive.google.com/file/d/sample-asesmen-inf/view 302
+/s/media-komputer-3d https://komputer-3d.adayu.id 302
+/s/jurnal-inf https://docs.google.com/spreadsheets/d/sample-jurnal-inf/view 302
+/s/atp-mat-d https://drive.google.com/file/d/sample-atp-mat/view 302
+/s/modul-mat-7 https://drive.google.com/file/d/sample-modul-mat7/view 302
+/s/prota-mat-7 https://drive.google.com/file/d/sample-prota-mat/view 302
+/s/asesmen-mat-7 https://drive.google.com/file/d/sample-asesmen-mat/view 302
+/s/media-mat-7 https://canva.com/design/sample-mat-media/view 302
+/s/jurnal-mat-7 https://docs.google.com/spreadsheets/d/sample-jurnal-mat/view 302
+/s/atp-indo-7 https://drive.google.com/file/d/sample-atp-indo/view 302
+/s/modul-indo-7 https://drive.google.com/file/d/sample-modul-indo7/view 302
+/s/prota-indo https://drive.google.com/file/d/sample-prota-indo/view 302
+/s/asesmen-indo-7 https://drive.google.com/file/d/sample-asesmen-indo/view 302
+/s/jurnal-indo https://docs.google.com/spreadsheets/d/sample-jurnal-indo/view 302
+/s/atp-ipa-d https://drive.google.com/file/d/sample-atp-ipa/view 302
+/s/modul-ipa-7 https://drive.google.com/file/d/sample-modul-ipa7/view 302
+/s/prota-ipa-7 https://drive.google.com/file/d/sample-prota-ipa/view 302
+/s/asesmen-ipa-7 https://drive.google.com/file/d/sample-asesmen-ipa/view 302
+/s/media-ipa-7 https://canva.com/design/sample-ipa-media/view 302
+/s/jurnal-ipa-7 https://docs.google.com/spreadsheets/d/sample-jurnal-ipa/view 302
+/s/atp-bing-8 https://drive.google.com/file/d/sample-atp-bing/view 302
+/s/modul-bing-8 https://drive.google.com/file/d/sample-modul-bing8/view 302
+/s/prota-bing-8 https://drive.google.com/file/d/sample-prota-bing/view 302
+/s/asesmen-bing-8 https://drive.google.com/file/d/sample-asesmen-bing/view 302
+/s/jurnal-bing-8 https://docs.google.com/spreadsheets/d/sample-jurnal-bing/view 302
+/s/atp-ips-7 https://drive.google.com/file/d/sample-atp-ips/view 302
+/s/modul-ips-7 https://drive.google.com/file/d/sample-modul-ips7/view 302
+/s/prota-ips-7 https://drive.google.com/file/d/sample-prota-ips/view 302
+/s/asesmen-ips-7 https://drive.google.com/file/d/sample-asesmen-ips/view 302
+/s/jurnal-ips-7 https://docs.google.com/spreadsheets/d/sample-jurnal-ips/view 302
+/s/atp-pai-d https://drive.google.com/file/d/sample-atp-pai/view 302
+/s/modul-pai-7 https://drive.google.com/file/d/sample-modul-pai7/view 302
+/s/prota-pai https://drive.google.com/file/d/sample-prota-pai/view 302
+/s/asesmen-pai-7 https://drive.google.com/file/d/sample-asesmen-pai/view 302
+/s/media-pai-7 https://canva.com/design/sample-pai-media/view 302
+/s/jurnal-pai https://docs.google.com/spreadsheets/d/sample-jurnal-pai/view 302
+/s/atp-pancasila-7 https://drive.google.com/file/d/sample-atp-pancasila/view 302
+/s/modul-pancasila-7 https://drive.google.com/file/d/sample-modul-pancasila7/view 302
+/s/prota-pancasila-7 https://drive.google.com/file/d/sample-prota-pancasila/view 302
+/s/asesmen-pancasila-7 https://drive.google.com/file/d/sample-asesmen-pancasila/view 302
+/s/jurnal-pancasila-7 https://docs.google.com/spreadsheets/d/sample-jurnal-pancasila/view 302
+
+# SPA Fallback for static prerender routes
+/* /404.html 404

@@ -1,3 +1,11 @@
+## Project Configuration
+
+- **Language**: TypeScript
+- **Package Manager**: npm
+- **Add-ons**: tailwindcss, sveltekit-adapter
+
+---
+
 # 🛡️ PANDUAN & ATURAN KERJA PROYEK: ELMAARIF MICROSITE
 > **Status:** AKTIF & WAJIB DIPATUHI SETIAP SESI  
 > **Lokasi Workspace:** `D:\02_-_RHT_-_Proyek\saas_adayu\elmaarif_microsite`  
