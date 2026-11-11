@@ -130,7 +130,7 @@
 
 				<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-sky-50 text-sky-700 border border-sky-200">
 					<span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
-					<span class="hidden md:inline">Cloudflare Edge Static</span>
+					<span class="hidden sm:inline">Power by Adayu.ID</span>
 				</span>
 			</div>
 		</div>

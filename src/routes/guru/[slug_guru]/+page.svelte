@@ -236,6 +236,16 @@
 							</div>
 						</div>
 					</div>
+				{:else}
+					<div class="col-span-full p-12 text-center bg-white rounded-3xl border border-dashed border-slate-200 space-y-3">
+						<div class="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center mx-auto">
+							<Folder class="w-6 h-6" />
+						</div>
+						<h3 class="font-bold text-slate-800 text-base">Belum Ada Perangkat Ajar yang Diunggah</h3>
+						<p class="text-xs text-slate-500 max-w-md mx-auto leading-relaxed">
+							Seluruh berkas perangkat ajar yang diisi (CP & ATP, Modul Ajar, Prota & Promes, Asesmen, Media Digital, Jurnal Mengajar) akan langsung dihitung tingkat kesiapannya secara otomatis di sini.
+						</p>
+					</div>
 				{/each}
 			</div>
 		</div>

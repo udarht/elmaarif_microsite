@@ -247,6 +247,14 @@
 							{/each}
 						</div>
 					</div>
+				{:else}
+					<div class="p-8 text-center bg-slate-50 rounded-2xl border border-dashed border-slate-200 space-y-2">
+						<Folder class="w-8 h-8 text-slate-300 mx-auto" />
+						<div class="text-xs font-bold text-slate-700">Belum Ada Berkas Perangkat Ajar</div>
+						<p class="text-[11px] text-slate-400 max-w-sm mx-auto">
+							Seluruh berkas perangkat ajar yang diisi pada profil guru ini akan otomatis ditampilkan dan dihitung kesiapannya di sini.
+						</p>
+					</div>
 				{/each}
 			</div>
 

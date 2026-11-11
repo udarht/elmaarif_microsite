@@ -178,8 +178,10 @@
 							<td class="border border-slate-300 py-2 px-2 text-center">
 								{#if tStats.persentaseKelengkapan >= 100}
 									<span class="font-bold text-sky-700 print:text-black">Lengkap</span>
+								{:else if tStats.persentaseKelengkapan > 0}
+									<span class="font-medium text-amber-700 print:text-black">Proses ({tStats.persentaseKelengkapan}%)</span>
 								{:else}
-									<span class="font-medium text-amber-700 print:text-black">Terpenuhi</span>
+									<span class="text-slate-400 print:text-slate-500">Belum Ada</span>
 								{/if}
 							</td>
 						</tr>

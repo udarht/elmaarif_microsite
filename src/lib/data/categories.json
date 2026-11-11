@@ -1,7 +1,7 @@
 [
   {
     "kode_kategori": "ATP_CP",
-    "nama_kategori": "CP & Alur Tujuan Pembelajaran (ATP)",
+    "nama_kategori": "CP & Alur Tujuan Pembelajaran",
     "deskripsi": "Pemetaan Capaian Pembelajaran, penurunan Tujuan Pembelajaran, dan Alur Tujuan Pembelajaran Fase D.",
     "ikon": "FileText",
     "wajib_supervisi": true
@@ -15,14 +15,14 @@
   },
   {
     "kode_kategori": "PROTA_PROMES",
-    "nama_kategori": "Program Tahunan & Semester (Prota/Promes)",
+    "nama_kategori": "Program Tahunan & Semester",
     "deskripsi": "Distribusi alokasi jam pelajaran mingguan dan pemetaan materi semester gasal/genap.",
     "ikon": "Calendar",
     "wajib_supervisi": true
   },
   {
     "kode_kategori": "ASESMEN",
-    "nama_kategori": "Instrumen Asesmen (Diagnostik/Formatif/Sumatif)",
+    "nama_kategori": "Instrumen Asesmen",
     "deskripsi": "Rubrik penilaian, kisi-kisi soal, pedoman penskoran, dan instrumen asesmen autentik.",
     "ikon": "CheckSquare",
     "wajib_supervisi": true

@@ -8,6 +8,7 @@ powershell.cmd
 .agents/
 .system_generated/
 scratch/
+blueprint/
 
 # ==========================================
 # Environment & Secret Files
