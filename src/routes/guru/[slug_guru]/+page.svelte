@@ -230,30 +230,38 @@
 							</div>
 
 							<div class="flex items-center gap-2">
-								<button
-									type="button"
-									onclick={() => handlePreview(doc)}
-									class="cursor-pointer inline-flex items-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold {doc.tipe_file === 'GDRIVE_FOLDER' ? 'bg-amber-600 hover:bg-amber-500' : 'bg-sky-600 hover:bg-sky-500'} text-white transition-all shadow-xs active:scale-95"
-									title={doc.tipe_file === 'GDRIVE_FOLDER' ? 'Pratinjau Folder Google Drive' : 'Pratinjau Dokumen'}
-								>
-									{#if doc.tipe_file === 'GDRIVE_FOLDER'}
+								{#if doc.tipe_file === 'GDRIVE_FOLDER'}
+									<a
+										href={doc.target_url}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="cursor-pointer inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all shadow-xs active:scale-95"
+										title="Buka Folder di Google Drive"
+									>
 										<Folder class="w-3.5 h-3.5" />
-										<span>Pratinjau Folder</span>
-									{:else}
+										<span>Buka Folder</span>
+										<ExternalLink class="w-3 h-3 opacity-80" />
+									</a>
+								{:else}
+									<button
+										type="button"
+										onclick={() => handlePreview(doc)}
+										class="cursor-pointer inline-flex items-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all shadow-xs active:scale-95"
+									>
 										<Eye class="w-3.5 h-3.5" />
 										<span>Pratinjau</span>
-									{/if}
-								</button>
+									</button>
 
-								<a
-									href={doc.target_url}
-									target="_blank"
-									rel="noopener noreferrer"
-									class="cursor-pointer p-2 rounded-xl text-slate-500 hover:text-sky-600 bg-slate-50 border border-slate-200 hover:bg-sky-50 transition-colors"
-									title="Buka Berkas Asli"
-								>
-									<ExternalLink class="w-3.5 h-3.5" />
-								</a>
+									<a
+										href={doc.target_url}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="cursor-pointer p-2 rounded-xl text-slate-500 hover:text-sky-600 bg-slate-50 border border-slate-200 hover:bg-sky-50 transition-colors"
+										title="Buka Berkas Asli"
+									>
+										<ExternalLink class="w-3.5 h-3.5" />
+									</a>
+								{/if}
 							</div>
 						</div>
 					</div>

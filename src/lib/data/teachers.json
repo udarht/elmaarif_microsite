@@ -133,6 +133,39 @@
         "short_slug": "bing-9-prota-promes",
         "status_verifikasi": "LENGKAP",
         "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-ENG-04",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Inggris Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1AiKK3fY9rBT_LcKLi7CUaGgXVyzl3nX6",
+        "short_slug": "bing-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-ENG-05",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Inggris Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1AiKK3fY9rBT_LcKLi7CUaGgXVyzl3nX6",
+        "short_slug": "bing-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-ENG-06",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Inggris Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1AiKK3fY9rBT_LcKLi7CUaGgXVyzl3nX6",
+        "short_slug": "bing-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-11"
       }
     ]
   },

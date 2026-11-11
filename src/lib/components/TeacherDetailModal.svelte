@@ -192,21 +192,30 @@
 
 									<!-- Action buttons -->
 									<div class="flex items-center gap-1.5 shrink-0 self-end sm:self-auto">
-										<!-- Preview Button -->
-										<button
-											type="button"
-											onclick={() => onPreviewDoc(doc, teacher)}
-											class="cursor-pointer inline-flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-semibold {doc.tipe_file === 'GDRIVE_FOLDER' ? 'bg-amber-600 hover:bg-amber-500' : 'bg-sky-600 hover:bg-sky-500'} text-white transition-all active:scale-95 shadow-xs"
-											title={doc.tipe_file === 'GDRIVE_FOLDER' ? 'Pratinjau Folder Google Drive' : 'Pratinjau Dokumen (Embed Drawer)'}
-										>
-											{#if doc.tipe_file === 'GDRIVE_FOLDER'}
+										{#if doc.tipe_file === 'GDRIVE_FOLDER'}
+											<a
+												href={doc.target_url}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="cursor-pointer inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all active:scale-95 shadow-xs"
+												title="Buka Folder di Tab Baru"
+											>
 												<Folder class="w-3.5 h-3.5" />
-												<span class="hidden md:inline">Pratinjau Folder</span>
-											{:else}
+												<span>Buka Folder</span>
+												<ExternalLink class="w-3 h-3 opacity-80" />
+											</a>
+										{:else}
+											<!-- Preview Button -->
+											<button
+												type="button"
+												onclick={() => onPreviewDoc(doc, teacher)}
+												class="cursor-pointer inline-flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all active:scale-95 shadow-xs"
+												title="Pratinjau Dokumen (Embed Drawer)"
+											>
 												<Eye class="w-3.5 h-3.5" />
 												<span class="hidden md:inline">Pratinjau</span>
-											{/if}
-										</button>
+											</button>
+										{/if}
 
 										<!-- QR Code Button -->
 										<button

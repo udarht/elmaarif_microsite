@@ -127,66 +127,121 @@
 				</div>
 			</div>
 
-			<!-- Folder Notification & Direct Action Banner (Jika Tipe Folder) -->
-			{#if isFolder}
-				<div class="px-4 sm:px-5 py-3 bg-amber-50 border-b border-amber-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 text-xs text-amber-900 shrink-0">
-					<div class="flex items-start sm:items-center gap-2 min-w-0">
-						<Folder class="w-4 h-4 text-amber-600 shrink-0 mt-0.5 sm:mt-0" />
-						<p class="leading-relaxed">
-							Berkas ini berada di <strong>Folder Google Drive</strong>. Anda dapat menjelajahi isi foldernya di bawah atau membukanya langsung.
-						</p>
-					</div>
-					<a
-						href={doc.target_url}
-						target="_blank"
-						rel="noopener noreferrer"
-						class="inline-flex items-center justify-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-xs transition-all shrink-0 active:scale-95"
-					>
-						<span>Buka Folder Drive</span>
-						<ExternalLink class="w-3.5 h-3.5" />
-					</a>
-				</div>
-			{/if}
-
-			<!-- Embed Iframe Preview Area -->
-			<div class="relative flex-1 bg-slate-100 overflow-hidden flex flex-col">
-				{#if isLoadingIframe}
-					<div class="absolute inset-0 flex flex-col items-center justify-center bg-slate-50/90 z-10 text-slate-500 space-y-3">
-						<div class="w-8 h-8 border-3 border-sky-500 border-t-transparent rounded-full animate-spin"></div>
-						<p class="text-xs font-semibold text-slate-600">Memuat pratinjau berkas digital...</p>
-					</div>
-				{/if}
-
-				{#if doc.tipe_file === 'INTERAKTIF_3D' || doc.tipe_file === 'PDF' || doc.tipe_file === 'GDOC' || doc.tipe_file === 'GSHEET' || doc.tipe_file === 'CANVA' || doc.tipe_file === 'GDRIVE_FOLDER'}
-					<iframe
-						src={embedUrl}
-						title={doc.judul_dokumen}
-						class="w-full h-full border-0"
-						onload={() => (isLoadingIframe = false)}
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
-					></iframe>
-				{:else}
-					<div class="flex-1 flex flex-col items-center justify-center p-8 text-center space-y-4">
-						<div class="p-4 rounded-2xl bg-slate-200 text-slate-600">
-							<FileText class="w-10 h-10 text-sky-600" />
+			<!-- Drawer Content Area -->
+			<div class="relative flex-1 bg-slate-100 overflow-y-auto flex flex-col">
+				{#if isFolder}
+					<!-- Clean & Modern Google Drive Folder Hub -->
+					<div class="flex-1 flex flex-col items-center justify-center p-6 sm:p-10 text-center space-y-6 my-auto">
+						<!-- Big Animated Folder Badge -->
+						<div class="relative">
+							<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white shadow-xl shadow-sky-500/25">
+								<Folder class="w-10 h-10 sm:w-12 sm:h-12" />
+							</div>
+							<div class="absolute -bottom-1 -right-1 px-2.5 py-0.5 rounded-full bg-emerald-500 text-white text-[10px] font-bold shadow-xs">
+								Terverifikasi
+							</div>
 						</div>
-						<div class="space-y-1">
-							<h4 class="font-bold text-base text-slate-800">Pratinjau Langsung Tidak Didukung</h4>
-							<p class="text-xs text-slate-500 max-w-sm">
-								Tipe berkas ini lebih optimal jika dibuka langsung pada tab peramban baru.
+
+						<div class="space-y-2 max-w-lg">
+							<span class="inline-block text-xs font-bold uppercase tracking-wider text-sky-700 bg-sky-50 px-3 py-1 rounded-full border border-sky-200">
+								Folder Google Drive Resmi
+							</span>
+							<h4 class="font-extrabold text-base sm:text-lg text-slate-900 leading-snug">
+								{doc.judul_dokumen}
+							</h4>
+							<p class="text-xs text-slate-500">
+								Pendidik: <span class="font-bold text-slate-700">{teacher.nama_lengkap}</span> • Sasaran: <span class="font-semibold text-slate-700">{doc.kelas_target}</span>
 							</p>
 						</div>
-						<a
-							href={doc.target_url}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs shadow-md transition-all"
-						>
-							<span>Buka Dokumen Asli</span>
-							<ExternalLink class="w-4 h-4" />
-						</a>
+
+						<!-- Explanation Card -->
+						<div class="max-w-md w-full bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 text-left space-y-2 shadow-xs">
+							<div class="flex items-center gap-2 text-slate-800 font-bold text-xs">
+								<Info class="w-4 h-4 text-sky-600 shrink-0" />
+								<span>Akses Folder Terpadu</span>
+							</div>
+							<p class="text-[11px] text-slate-500 leading-relaxed">
+								Google Drive memproteksi tampilan folder dari dalam bingkai peramban (*iframe*). Seluruh berkas perangkat ajar tersimpan lengkap dan dapat diakses langsung secara resmi di Google Drive.
+							</p>
+						</div>
+
+						<!-- Primary Action: Open in Drive -->
+						<div class="w-full max-w-md space-y-3">
+							<a
+								href={doc.target_url}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-sm shadow-md shadow-sky-600/25 transition-all active:scale-95"
+							>
+								<span>Buka Folder di Google Drive</span>
+								<ExternalLink class="w-4 h-4" />
+							</a>
+
+							<div class="flex items-center justify-center gap-3 text-xs">
+								<button
+									type="button"
+									onclick={handleCopy}
+									class="cursor-pointer text-slate-500 hover:text-sky-600 font-medium inline-flex items-center gap-1"
+								>
+									{#if isCopied}
+										<Check class="w-3.5 h-3.5 text-sky-600" />
+										<span>Shortlink Disalin</span>
+									{:else}
+										<Copy class="w-3.5 h-3.5" />
+										<span>Salin Shortlink</span>
+									{/if}
+								</button>
+								<span class="text-slate-300">•</span>
+								<button
+									type="button"
+									onclick={() => onOpenQr(doc)}
+									class="cursor-pointer text-slate-500 hover:text-sky-600 font-medium inline-flex items-center gap-1"
+								>
+									<QrCode class="w-3.5 h-3.5" />
+									<span>QR Code</span>
+								</button>
+							</div>
+						</div>
 					</div>
+				{:else}
+					{#if isLoadingIframe}
+						<div class="absolute inset-0 flex flex-col items-center justify-center bg-slate-50/90 z-10 text-slate-500 space-y-3">
+							<div class="w-8 h-8 border-3 border-sky-500 border-t-transparent rounded-full animate-spin"></div>
+							<p class="text-xs font-semibold text-slate-600">Memuat pratinjau berkas digital...</p>
+						</div>
+					{/if}
+
+					{#if doc.tipe_file === 'INTERAKTIF_3D' || doc.tipe_file === 'PDF' || doc.tipe_file === 'GDOC' || doc.tipe_file === 'GSHEET' || doc.tipe_file === 'CANVA'}
+						<iframe
+							src={embedUrl}
+							title={doc.judul_dokumen}
+							class="w-full h-full border-0"
+							onload={() => (isLoadingIframe = false)}
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+						></iframe>
+					{:else}
+						<div class="flex-1 flex flex-col items-center justify-center p-8 text-center space-y-4">
+							<div class="p-4 rounded-2xl bg-slate-200 text-slate-600">
+								<FileText class="w-10 h-10 text-sky-600" />
+							</div>
+							<div class="space-y-1">
+								<h4 class="font-bold text-base text-slate-800">Pratinjau Langsung Tidak Didukung</h4>
+								<p class="text-xs text-slate-500 max-w-sm">
+									Tipe berkas ini lebih optimal jika dibuka langsung pada tab peramban baru.
+								</p>
+							</div>
+							<a
+								href={doc.target_url}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs shadow-md transition-all"
+							>
+								<span>Buka Dokumen Asli</span>
+								<ExternalLink class="w-4 h-4" />
+							</a>
+						</div>
+					{/if}
 				{/if}
 			</div>
 
