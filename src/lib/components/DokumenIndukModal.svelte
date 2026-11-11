@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { DokumenInduk } from '#lib/types/supervisi';
-	import { X, ExternalLink, FileText } from '@lucide/svelte';
+	import { X, ExternalLink, FileText, Globe } from '@lucide/svelte';
 
 	interface Props {
 		isOpen: boolean;
@@ -64,7 +64,18 @@
 				{/each}
 			</div>
 
-			<div class="mt-6 pt-4 border-t border-slate-100 flex justify-end">
+			<div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+				<a
+					href="https://elmaarifpasbar.sch.id"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-xs font-semibold text-sky-600 hover:text-sky-700 inline-flex items-center gap-1.5"
+				>
+					<Globe class="w-3.5 h-3.5" />
+					<span>Kunjungi elmaarifpasbar.sch.id</span>
+					<ExternalLink class="w-3 h-3" />
+				</a>
+
 				<button
 					type="button"
 					onclick={onClose}

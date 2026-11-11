@@ -12,7 +12,8 @@
 		Copy,
 		Check,
 		Eye,
-		ShieldCheck
+		ShieldCheck,
+		Globe
 	} from '@lucide/svelte';
 
 	let { data }: { data: PageData } = $props();
@@ -71,6 +72,19 @@
 			</a>
 
 			<div class="flex items-center gap-2">
+				{#if schoolConfig.kontak?.website}
+					<a
+						href={schoolConfig.kontak.website}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-700 text-xs font-semibold border border-sky-200 transition-all active:scale-95 shadow-2xs"
+						title="Kunjungi Website Resmi Sekolah"
+					>
+						<Globe class="w-3.5 h-3.5 text-sky-600" />
+						<span class="hidden sm:inline">Website Utama</span>
+					</a>
+				{/if}
+
 				<button
 					type="button"
 					onclick={() =>

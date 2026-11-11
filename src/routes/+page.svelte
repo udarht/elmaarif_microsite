@@ -17,7 +17,7 @@
 	import TeacherDetailModal from '#lib/components/TeacherDetailModal.svelte';
 	import DocumentPreviewDrawer from '#lib/components/DocumentPreviewDrawer.svelte';
 	import QrCodeModal from '#lib/components/QrCodeModal.svelte';
-	import { School, Printer, AlertCircle } from '@lucide/svelte';
+	import { School, Printer, AlertCircle, Globe, ExternalLink } from '@lucide/svelte';
 
 	// State Management via Svelte 5 Runes
 	let searchQuery = $state('');
@@ -118,8 +118,20 @@
 				</div>
 			</a>
 
-			<!-- Right tools: Mode Cetak & Status Badge -->
-			<div class="flex items-center gap-3">
+			<!-- Right tools: Website Utama, Mode Cetak & Status Badge -->
+			<div class="flex items-center gap-2.5">
+				<a
+					href={schoolConfig.kontak?.website || 'https://elmaarifpasbar.sch.id'}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-700 hover:text-sky-800 text-xs font-semibold border border-sky-200 transition-all active:scale-95 shadow-2xs"
+					title="Kunjungi Website Resmi: elmaarifpasbar.sch.id"
+				>
+					<Globe class="w-3.5 h-3.5 text-sky-600" />
+					<span class="hidden sm:inline">Website Utama</span>
+					<ExternalLink class="w-3 h-3 opacity-60" />
+				</a>
+
 				<a
 					href="/rekap-dinas"
 					class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white hover:bg-sky-50 text-slate-700 hover:text-sky-700 text-xs font-semibold border border-slate-200 hover:border-sky-200 transition-all active:scale-95 shadow-2xs"

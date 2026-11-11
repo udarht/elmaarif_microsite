@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { SchoolConfig, SchoolSupervisiStats } from '#lib/types/supervisi';
-	import { School, Award, FileText, ShieldCheck, Sparkles, BookOpen, Calendar } from '@lucide/svelte';
+	import { School, Award, FileText, ShieldCheck, Sparkles, BookOpen, Calendar, Globe, ExternalLink } from '@lucide/svelte';
 
 	interface Props {
 		schoolConfig: SchoolConfig;
@@ -41,16 +41,18 @@
 					</div>
 					<span>{schoolConfig.nama_sekolah}</span>
 				</h1>
-				<p class="text-sky-100 text-sm mt-1.5 font-mono">
-					NPSN: {schoolConfig.npsn} • {schoolConfig.alamat}
-				</p>
+				<div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sky-100 text-xs sm:text-sm mt-1.5 font-mono">
+					<span>NPSN: {schoolConfig.npsn}</span>
+					<span>•</span>
+					<span>{schoolConfig.alamat}</span>
+				</div>
 			</div>
 
 			<p class="text-sky-50 text-sm leading-relaxed max-w-2xl bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/20 shadow-xs">
 				<span class="font-bold text-white">Catatan Pengawas:</span> {schoolConfig.info_pengawas.pesan_selamat_datang}
 			</p>
 
-			<!-- Action buttons -->
+			<!-- Action buttons: Dokumen Induk & Website Utama Sekolah -->
 			<div class="flex flex-wrap items-center gap-3 pt-1">
 				<button
 					type="button"
@@ -60,6 +62,19 @@
 					<FileText class="w-4 h-4 text-sky-600" />
 					<span>Dokumen Induk Sekolah (KOSP / Kaldik)</span>
 				</button>
+
+				{#if schoolConfig.kontak?.website}
+					<a
+						href={schoolConfig.kontak.website}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="cursor-pointer inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/20 hover:bg-white/30 text-white font-semibold text-xs sm:text-sm border border-white/30 backdrop-blur-sm transition-all shadow-xs active:scale-95"
+					>
+						<Globe class="w-4 h-4 text-sky-100" />
+						<span>Website Utama ({schoolConfig.kontak.website.replace('https://', '')})</span>
+						<ExternalLink class="w-3.5 h-3.5 text-sky-200" />
+					</a>
+				{/if}
 			</div>
 		</div>
 
