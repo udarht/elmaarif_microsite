@@ -44,6 +44,10 @@ lines.push('# Shortlink Folder Utama Dewan Guru');
 for (const t of teachers) {
 	if (t.short_folder && t.folder_utama_url) {
 		lines.push(`/s/${t.short_folder} ${t.folder_utama_url} 302`);
+		if (t.short_folder.startsWith('gdrive-')) {
+			const alias = t.short_folder.replace('gdrive-', 'drive-');
+			lines.push(`/s/${alias} ${t.folder_utama_url} 302`);
+		}
 	}
 }
 lines.push('');
