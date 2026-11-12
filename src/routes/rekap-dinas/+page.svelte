@@ -202,7 +202,7 @@
 		<div class="border border-slate-300 rounded-xl p-4 text-xs text-slate-700 mb-8 space-y-1.5 print:border-none print:p-0">
 			<div class="font-bold text-slate-900">Catatan & Rekomendasi Tim Pengawas:</div>
 			<p class="text-[11px] leading-relaxed text-slate-600">
-				Seluruh dewan guru telah mengunggah perangkat ajar wajib (Capaian Pembelajaran, Alur Tujuan Pembelajaran, Modul Ajar Berdiferensiasi, Prota/Promes, dan Rubrik Asesmen) ke dalam repositori Cloudflare Pages SMP El Ma'arif Boarding School secara terverifikasi. Pembelajaran berbasis Kurikulum Merdeka dinyatakan siap dilaksanakan secara optimal.
+				Seluruh dewan guru telah mengunggah perangkat ajar wajib (Capaian Pembelajaran, Alur Tujuan Pembelajaran, Modul Ajar Mendalam, Prota/Promes, dan Rubrik Asesmen) ke dalam repositori Cloudflare Pages SMP El Ma'arif Boarding School secara terverifikasi. Pembelajaran berbasis Kurikulum Merdeka dinyatakan siap dilaksanakan secara optimal.
 			</p>
 		</div>
 

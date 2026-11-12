@@ -87,3 +87,28 @@
 	.shadow-sky-600\/25 { --tw-shadow-color: rgba(2, 132, 199, 0.25) !important; }
 	.shadow-sky-900\/20 { --tw-shadow-color: rgba(12, 74, 110, 0.2) !important; }
 }
+
+/* Custom sleek horizontal scrollbar untuk pill filter mapel */
+.custom-horizontal-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: #bae6fd #f1f5f9;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar {
+	height: 6px;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-track {
+	background: #f1f5f9;
+	border-radius: 9999px;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-thumb {
+	background: #bae6fd;
+	border-radius: 9999px;
+	border: 1px solid #f1f5f9;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: #38bdf8;
+}

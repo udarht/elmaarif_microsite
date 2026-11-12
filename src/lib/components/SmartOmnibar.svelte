@@ -1,6 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { Category } from '#lib/types/supervisi';
-	import { Search, LayoutGrid, Table, Download, X, Filter } from '@lucide/svelte';
+	import { Search, LayoutGrid, Table, Download, X, Filter, ChevronLeft, ChevronRight } from '@lucide/svelte';
 
 	interface Props {
 		searchQuery: string;
@@ -35,6 +36,32 @@
 	}: Props = $props();
 
 	let searchInputRef: HTMLInputElement | null = $state(null);
+	let scrollContainerRef: HTMLDivElement | null = $state(null);
+	let canScrollLeft = $state(false);
+	let canScrollRight = $state(true);
+
+	function updateScrollButtons() {
+		if (!scrollContainerRef) return;
+		const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef;
+		canScrollLeft = scrollLeft > 5;
+		canScrollRight = scrollLeft < scrollWidth - clientWidth - 5;
+	}
+
+	function scroll(direction: 'left' | 'right') {
+		if (!scrollContainerRef) return;
+		const scrollAmount = 260;
+		scrollContainerRef.scrollBy({
+			left: direction === 'left' ? -scrollAmount : scrollAmount,
+			behavior: 'smooth'
+		});
+	}
+
+	onMount(() => {
+		updateScrollButtons();
+		const handleResize = () => updateScrollButtons();
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	});
 
 	export function focusSearch() {
 		if (searchInputRef) {
@@ -158,27 +185,55 @@
 		{/if}
 	</div>
 
-	<!-- Quick Filter Pills for Mapel -->
-	<div class="flex items-center gap-1.5 overflow-x-auto pb-1 pt-1 scrollbar-none">
-		<button
-			type="button"
-			onclick={() => onUpdateMapel('Semua Mapel')}
-			class="cursor-pointer px-3 py-1 rounded-full text-xs font-medium shrink-0 transition-all {selectedMapel === 'Semua Mapel'
-				? 'bg-sky-600 text-white font-semibold shadow-xs'
-				: 'bg-slate-100 text-slate-600 hover:bg-sky-50 hover:text-sky-700'}"
-		>
-			Semua Mapel
-		</button>
-		{#each mapelOptions as mapel}
+	<!-- Quick Filter Pills for Mapel with Left/Right Scroll Controls -->
+	<div class="relative flex items-center group pt-1">
+		{#if canScrollLeft}
 			<button
 				type="button"
-				onclick={() => onUpdateMapel(mapel)}
-				class="cursor-pointer px-3 py-1 rounded-full text-xs font-medium shrink-0 transition-all {selectedMapel === mapel
+				onclick={() => scroll('left')}
+				aria-label="Scroll filter mapel ke kiri"
+				class="cursor-pointer absolute left-0 z-10 p-1.5 rounded-full bg-white/95 hover:bg-sky-50 text-slate-700 hover:text-sky-700 border border-slate-300 shadow-md transition-all active:scale-90 -translate-x-1 sm:-translate-x-2"
+			>
+				<ChevronLeft class="w-4 h-4" />
+			</button>
+		{/if}
+
+		<div
+			bind:this={scrollContainerRef}
+			onscroll={updateScrollButtons}
+			class="custom-horizontal-scrollbar flex items-center gap-1.5 overflow-x-auto pb-2 pt-1 scroll-smooth w-full select-none"
+		>
+			<button
+				type="button"
+				onclick={() => onUpdateMapel('Semua Mapel')}
+				class="cursor-pointer px-3.5 py-1.5 rounded-full text-xs font-medium shrink-0 transition-all {selectedMapel === 'Semua Mapel'
 					? 'bg-sky-600 text-white font-semibold shadow-xs'
 					: 'bg-slate-100 text-slate-600 hover:bg-sky-50 hover:text-sky-700'}"
 			>
-				{mapel}
+				Semua Mapel
 			</button>
-		{/each}
+			{#each mapelOptions as mapel}
+				<button
+					type="button"
+					onclick={() => onUpdateMapel(mapel)}
+					class="cursor-pointer px-3.5 py-1.5 rounded-full text-xs font-medium shrink-0 transition-all {selectedMapel === mapel
+						? 'bg-sky-600 text-white font-semibold shadow-xs'
+						: 'bg-slate-100 text-slate-600 hover:bg-sky-50 hover:text-sky-700'}"
+				>
+					{mapel}
+				</button>
+			{/each}
+		</div>
+
+		{#if canScrollRight}
+			<button
+				type="button"
+				onclick={() => scroll('right')}
+				aria-label="Scroll filter mapel ke kanan"
+				class="cursor-pointer absolute right-0 z-10 p-1.5 rounded-full bg-white/95 hover:bg-sky-50 text-slate-700 hover:text-sky-700 border border-slate-300 shadow-md transition-all active:scale-90 translate-x-1 sm:translate-x-2"
+			>
+				<ChevronRight class="w-4 h-4" />
+			</button>
+		{/if}
 	</div>
 </div>

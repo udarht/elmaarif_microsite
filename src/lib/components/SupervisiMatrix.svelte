@@ -1,7 +1,8 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { Teacher, Category, PerangkatAjar } from '#lib/types/supervisi';
 	import { calculateTeacherStats } from '#lib/utils/supervisi';
-	import { CheckCircle2, AlertCircle, Clock, ArrowRight } from '@lucide/svelte';
+	import { CheckCircle2, AlertCircle, Clock, ArrowRight, ChevronLeft, ChevronRight } from '@lucide/svelte';
 
 	interface Props {
 		teachers: Teacher[];
@@ -10,6 +11,33 @@
 	}
 
 	let { teachers, categories, onSelectTeacher }: Props = $props();
+
+	let scrollContainerRef: HTMLDivElement | null = $state(null);
+	let canScrollLeft = $state(false);
+	let canScrollRight = $state(false);
+
+	function updateScrollButtons() {
+		if (!scrollContainerRef) return;
+		const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef;
+		canScrollLeft = scrollLeft > 10;
+		canScrollRight = scrollLeft < scrollWidth - clientWidth - 10;
+	}
+
+	function scroll(direction: 'left' | 'right') {
+		if (!scrollContainerRef) return;
+		const scrollAmount = 350;
+		scrollContainerRef.scrollBy({
+			left: direction === 'left' ? -scrollAmount : scrollAmount,
+			behavior: 'smooth'
+		});
+	}
+
+	onMount(() => {
+		updateScrollButtons();
+		const handleResize = () => updateScrollButtons();
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	});
 
 	function getDocForCategory(teacher: Teacher, kodeKategori: string): PerangkatAjar | undefined {
 		return teacher.perangkat_ajar.find((d: PerangkatAjar) => d.kode_kategori === kodeKategori);
@@ -24,22 +52,64 @@
 			<p class="text-xs text-slate-500">Tampilan rekapitulasi cepat seluruh instrumen administrasi pembelajaran dewan guru.</p>
 		</div>
 
-		<div class="flex items-center gap-4 text-xs">
-			<span class="inline-flex items-center gap-1.5 text-sky-600 font-semibold">
-				<CheckCircle2 class="w-3.5 h-3.5" /> Lengkap
-			</span>
-			<span class="inline-flex items-center gap-1.5 text-amber-500 font-medium">
-				<Clock class="w-3.5 h-3.5" /> Proses
-			</span>
-			<span class="inline-flex items-center gap-1.5 text-slate-400 font-medium">
-				<span class="w-2 h-0.5 bg-slate-300 inline-block"></span> Belum Unggah
-			</span>
+		<div class="flex items-center gap-3 text-xs">
+			<div class="flex items-center gap-3">
+				<span class="inline-flex items-center gap-1.5 text-sky-600 font-semibold">
+					<CheckCircle2 class="w-3.5 h-3.5" /> Lengkap
+				</span>
+				<span class="inline-flex items-center gap-1.5 text-amber-500 font-medium">
+					<Clock class="w-3.5 h-3.5" /> Proses
+				</span>
+				<span class="inline-flex items-center gap-1.5 text-slate-400 font-medium">
+					<span class="w-2 h-0.5 bg-slate-300 inline-block"></span> Belum Unggah
+				</span>
+			</div>
+
+			<!-- Quick scroll buttons in header -->
+			<div class="hidden sm:inline-flex items-center gap-1 pl-2 border-l border-slate-200">
+				<button
+					type="button"
+					onclick={() => scroll('left')}
+					disabled={!canScrollLeft}
+					aria-label="Geser tabel ke kiri"
+					class="cursor-pointer p-1 rounded-lg border border-slate-200 bg-white text-slate-600 hover:text-sky-600 hover:bg-sky-50 disabled:opacity-30 disabled:cursor-not-allowed transition-all active:scale-95 shadow-2xs"
+					title="Geser tabel ke kiri"
+				>
+					<ChevronLeft class="w-4 h-4" />
+				</button>
+				<button
+					type="button"
+					onclick={() => scroll('right')}
+					disabled={!canScrollRight}
+					aria-label="Geser tabel ke kanan"
+					class="cursor-pointer p-1 rounded-lg border border-slate-200 bg-white text-slate-600 hover:text-sky-600 hover:bg-sky-50 disabled:opacity-30 disabled:cursor-not-allowed transition-all active:scale-95 shadow-2xs"
+					title="Geser tabel ke kanan"
+				>
+					<ChevronRight class="w-4 h-4" />
+				</button>
+			</div>
 		</div>
 	</div>
 
-	<!-- Scrollable Table container -->
-	<div class="overflow-x-auto">
-		<table class="w-full text-left text-xs text-slate-600">
+	<!-- Scrollable Table container with Custom Scrollbar and floating arrows -->
+	<div class="relative group">
+		{#if canScrollLeft}
+			<button
+				type="button"
+				onclick={() => scroll('left')}
+				aria-label="Geser tabel ke kiri"
+				class="cursor-pointer absolute left-3 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-white/95 hover:bg-sky-50 text-slate-700 hover:text-sky-700 border border-slate-300 shadow-xl transition-all active:scale-90"
+			>
+				<ChevronLeft class="w-5 h-5" />
+			</button>
+		{/if}
+
+		<div
+			bind:this={scrollContainerRef}
+			onscroll={updateScrollButtons}
+			class="custom-horizontal-scrollbar overflow-x-auto scroll-smooth w-full select-none pb-2"
+		>
+			<table class="w-full text-left text-xs text-slate-600">
 			<thead class="bg-sky-50/60 text-slate-700 uppercase font-bold text-[11px] tracking-wider border-b border-sky-100">
 				<tr>
 					<th class="py-3.5 px-4 w-12 text-center">No</th>
@@ -162,4 +232,16 @@
 			</tbody>
 		</table>
 	</div>
+
+	{#if canScrollRight}
+		<button
+			type="button"
+			onclick={() => scroll('right')}
+			aria-label="Geser tabel ke kanan"
+			class="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-white/95 hover:bg-sky-50 text-slate-700 hover:text-sky-700 border border-slate-300 shadow-xl transition-all active:scale-90"
+		>
+			<ChevronRight class="w-5 h-5" />
+		</button>
+	{/if}
+</div>
 </div>

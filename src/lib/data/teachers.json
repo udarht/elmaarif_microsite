@@ -75,6 +75,72 @@
         "short_slug": "inf-9-prota-promes",
         "status_verifikasi": "LENGKAP",
         "updated_at": "2026-11-11"
+      },
+      {
+        "id_dokumen": "DOC-INF-07",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Informatika Kelas VII Mendalam",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-INF-08",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Informatika Kelas VIII Mendalam",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-INF-09",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Informatika Kelas IX Mendalam",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-INF-10",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Pembelajaran Interaktif & Digital Informatika Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-7-media-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-INF-11",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Pembelajaran Interaktif & Digital Informatika Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-8-media-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-INF-12",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Pembelajaran Interaktif & Digital Informatika Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-9-media-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
       }
     ]
   },
@@ -252,7 +318,7 @@
       {
         "id_dokumen": "DOC-BIN-07",
         "kode_kategori": "MODUL_AJAR",
-        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas VII Berdiferensiasi",
+        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas VII Mendalam",
         "kelas_target": "Kelas VII",
         "tipe_file": "GDRIVE_FOLDER",
         "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
@@ -263,7 +329,7 @@
       {
         "id_dokumen": "DOC-BIN-08",
         "kode_kategori": "MODUL_AJAR",
-        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas VIII Berdiferensiasi",
+        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas VIII Mendalam",
         "kelas_target": "Kelas VIII",
         "tipe_file": "GDRIVE_FOLDER",
         "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
@@ -274,7 +340,7 @@
       {
         "id_dokumen": "DOC-BIN-09",
         "kode_kategori": "MODUL_AJAR",
-        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas IX Berdiferensiasi",
+        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas IX Mendalam",
         "kelas_target": "Kelas IX",
         "tipe_file": "GDRIVE_FOLDER",
         "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
@@ -364,7 +430,7 @@
       {
         "id_dokumen": "DOC-IPS-07",
         "kode_kategori": "MODUL_AJAR",
-        "judul_dokumen": "Modul Ajar IPS Kelas VII Berdiferensiasi",
+        "judul_dokumen": "Modul Ajar IPS Kelas VII Mendalam",
         "kelas_target": "Kelas VII",
         "tipe_file": "GDRIVE_FOLDER",
         "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
@@ -375,7 +441,7 @@
       {
         "id_dokumen": "DOC-IPS-08",
         "kode_kategori": "MODUL_AJAR",
-        "judul_dokumen": "Modul Ajar IPS Kelas VIII Berdiferensiasi",
+        "judul_dokumen": "Modul Ajar IPS Kelas VIII Mendalam",
         "kelas_target": "Kelas VIII",
         "tipe_file": "GDRIVE_FOLDER",
         "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
@@ -386,7 +452,7 @@
       {
         "id_dokumen": "DOC-IPS-09",
         "kode_kategori": "MODUL_AJAR",
-        "judul_dokumen": "Modul Ajar IPS Kelas IX Berdiferensiasi",
+        "judul_dokumen": "Modul Ajar IPS Kelas IX Mendalam",
         "kelas_target": "Kelas IX",
         "tipe_file": "GDRIVE_FOLDER",
         "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
