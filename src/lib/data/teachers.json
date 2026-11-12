@@ -403,7 +403,107 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggunKurnia&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
     "short_folder": "gdrive-anggun",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-PP-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Pendidikan Pancasila Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Pendidikan Pancasila Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Pendidikan Pancasila Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Pendidikan Pancasila Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-05",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Pendidikan Pancasila Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-06",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Pendidikan Pancasila Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-07",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Pancasila Kelas VII Mendalam",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-08",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Pancasila Kelas VIII Mendalam",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-PP-09",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Pancasila Kelas IX Mendalam",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/12IKKq0FRA_hC6CcVGUTJANKLgW1ixVZA",
+        "short_slug": "pp-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      }
+    ]
   },
   {
     "id_unit": 7,
