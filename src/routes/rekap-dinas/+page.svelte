@@ -81,7 +81,7 @@
 			/>
 			<div class="text-center space-y-0.5 flex-1">
 				<h3 class="text-xs uppercase tracking-widest font-bold text-slate-600 print:text-[10px]">
-					Yayasan Pendidikan Islam El Ma'arif
+					Yayasan Pendidikan Al - Ma'arif
 				</h3>
 				<h1 class="text-lg sm:text-2xl font-black uppercase tracking-tight text-slate-950 font-serif print:text-lg">
 					{schoolConfig.nama_sekolah}
