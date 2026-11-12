@@ -141,11 +141,6 @@
 					<Printer class="w-3.5 h-3.5 text-sky-600" />
 					<span class="hidden sm:inline">Cetak Rekap Dinas</span>
 				</a>
-
-				<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-sky-50 text-sky-700 border border-sky-200">
-					<span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
-					<span class="hidden sm:inline">Power by Adayu.ID</span>
-				</span>
 			</div>
 		</div>
 	</header>
@@ -225,13 +220,19 @@
 
 	<!-- Footer -->
 	<footer class="mt-auto border-t border-slate-200 bg-white py-8 text-center text-xs text-slate-500">
-		<div class="max-w-7xl mx-auto px-4 space-y-2">
+		<div class="max-w-7xl mx-auto px-4 space-y-3 flex flex-col items-center">
 			<p class="font-medium text-slate-700">
 				© 2026 {schoolConfig.nama_sekolah} — Ekosistem Digital Pendidikan El Ma'arif
 			</p>
 			<p class="text-[11px] text-slate-400">
 				Disusun untuk Instrumen Supervisi Mutu Pembelajaran Pengawas & Dinas Pendidikan • Serverless Static Architecture
 			</p>
+			<div class="pt-1">
+				<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold bg-sky-50 text-sky-700 border border-sky-200">
+					<span class="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse"></span>
+					<span>Powered by Adayu.ID</span>
+				</span>
+			</div>
 		</div>
 	</footer>
 

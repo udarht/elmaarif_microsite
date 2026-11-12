@@ -282,8 +282,14 @@
 
 	<!-- Footer -->
 	<footer class="mt-auto border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
-		<div class="max-w-6xl mx-auto px-4">
-			© 2026 {schoolConfig.nama_sekolah} • Portofolio Digital Pendidik
+		<div class="max-w-6xl mx-auto px-4 space-y-2.5 flex flex-col items-center">
+			<div>© 2026 {schoolConfig.nama_sekolah} • Portofolio Digital Pendidik</div>
+			<div>
+				<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold bg-sky-50 text-sky-700 border border-sky-200">
+					<span class="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse"></span>
+					<span>Powered by Adayu.ID</span>
+				</span>
+			</div>
 		</div>
 	</footer>
 

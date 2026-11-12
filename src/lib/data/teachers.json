@@ -182,7 +182,107 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=RantiDwi&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
     "short_folder": "gdrive-ranti",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-BIN-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Indonesia Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Indonesia Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Indonesia Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Indonesia Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-05",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Indonesia Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-06",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Indonesia Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-07",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas VII Berdiferensiasi",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-08",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas VIII Berdiferensiasi",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-BIN-09",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Bahasa Indonesia Kelas IX Berdiferensiasi",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1Do7wFyMDxIs7KoG1y1Wba57DvJ5XPpqJ",
+        "short_slug": "bindo-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      }
+    ]
   },
   {
     "id_unit": 8,
