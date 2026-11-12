@@ -212,7 +212,107 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=WitriYanti&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
     "short_folder": "gdrive-witri",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-MTK-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Matematika Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Matematika Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Matematika Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-04",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Matematika Kelas VII Mendalam",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-05",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Matematika Kelas VIII Mendalam",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-06",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Matematika Kelas IX Mendalam",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-07",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Matematika Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-08",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Matematika Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-MTK-09",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Matematika Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1tiX0lMiAe4K-lRyDm5ZMUWiWmgeaYPoq",
+        "short_slug": "mtk-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      }
+    ]
   },
   {
     "id_unit": 5,
