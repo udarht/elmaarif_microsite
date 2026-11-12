@@ -294,6 +294,106 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=SofyaMurti&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
     "short_folder": "gdrive-sofya",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-IPS-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) IPS Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) IPS Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) IPS Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) IPS Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-05",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) IPS Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-06",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) IPS Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-07",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPS Kelas VII Berdiferensiasi",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-08",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPS Kelas VIII Berdiferensiasi",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPS-09",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPS Kelas IX Berdiferensiasi",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1ThdTDEdhGZoJwwqF6dtPCXNBETQSiFIw",
+        "short_slug": "ips-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      }
+    ]
   }
 ]
