@@ -324,7 +324,74 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnggiaFitri&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
     "short_folder": "gdrive-anggia",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-IPA-01",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPA Kelas VII Mendalam",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPA-02",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPA Kelas VIII Mendalam",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPA-03",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar IPA Kelas IX Mendalam",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPA-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) IPA Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPA-05",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) IPA Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPA-06",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) IPA Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-12"
+      }
+    ]
   },
   {
     "id_unit": 6,
