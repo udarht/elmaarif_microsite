@@ -154,7 +154,107 @@
     "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=IsmyAzizah&top=hijab&hatColor=0284c7&clothing=blazerAndShirt&clothingColor=ffffff&mouth=smile&eyes=default",
     "folder_utama_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
     "short_folder": "gdrive-ismy",
-    "perangkat_ajar": []
+    "perangkat_ajar": [
+      {
+        "id_dokumen": "DOC-PAI-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Pendidikan Agama Islam Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Pendidikan Agama Islam Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Pendidikan Agama Islam Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-04",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Pendidikan Agama Islam Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-7-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-05",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Pendidikan Agama Islam Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-8-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-06",
+        "kode_kategori": "PROTA_PROMES",
+        "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Pendidikan Agama Islam Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-9-prota-promes",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-07",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Agama Islam Kelas VII Mendalam",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-08",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Agama Islam Kelas VIII Mendalam",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-PAI-09",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Pendidikan Agama Islam Kelas IX Mendalam",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1HWB8DOvOa0uztE6qgjJ33NINdAodywwM",
+        "short_slug": "pai-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      }
+    ]
   },
   {
     "id_unit": 3,
@@ -169,6 +269,39 @@
     "perangkat_ajar": [
       {
         "id_dokumen": "DOC-ENG-01",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Inggris Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-7-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-ENG-02",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Inggris Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-8-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-ENG-03",
+        "kode_kategori": "ATP_CP",
+        "judul_dokumen": "CP & Alur Tujuan Pembelajaran (ATP) Bahasa Inggris Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-9-cp-atp",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-ENG-04",
         "kode_kategori": "PROTA_PROMES",
         "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Inggris Kelas VII",
         "kelas_target": "Kelas VII",
@@ -176,10 +309,10 @@
         "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
         "short_slug": "bing-7-prota-promes",
         "status_verifikasi": "LENGKAP",
-        "updated_at": "2026-11-11"
+        "updated_at": "2026-11-13"
       },
       {
-        "id_dokumen": "DOC-ENG-02",
+        "id_dokumen": "DOC-ENG-05",
         "kode_kategori": "PROTA_PROMES",
         "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Inggris Kelas VIII",
         "kelas_target": "Kelas VIII",
@@ -187,10 +320,10 @@
         "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
         "short_slug": "bing-8-prota-promes",
         "status_verifikasi": "LENGKAP",
-        "updated_at": "2026-11-11"
+        "updated_at": "2026-11-13"
       },
       {
-        "id_dokumen": "DOC-ENG-03",
+        "id_dokumen": "DOC-ENG-06",
         "kode_kategori": "PROTA_PROMES",
         "judul_dokumen": "Program Tahunan (Prota) & Program Semester (Promes) Bahasa Inggris Kelas IX",
         "kelas_target": "Kelas IX",
@@ -198,7 +331,40 @@
         "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
         "short_slug": "bing-9-prota-promes",
         "status_verifikasi": "LENGKAP",
-        "updated_at": "2026-11-11"
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-ENG-07",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Bahasa Inggris Kelas VII Mendalam",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-7-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-ENG-08",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Bahasa Inggris Kelas VIII Mendalam",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-8-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-ENG-09",
+        "kode_kategori": "MODUL_AJAR",
+        "judul_dokumen": "Modul Ajar Bahasa Inggris Kelas IX Mendalam",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1jYjK0k-PtA6-zL-m52zFs-tehEqnxdMp",
+        "short_slug": "bing-9-modul-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
       }
     ]
   },
