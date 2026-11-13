@@ -141,6 +141,39 @@
         "short_slug": "inf-9-media-ajar",
         "status_verifikasi": "LENGKAP",
         "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-INF-13",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Instrumen Asesmen & Rubrik Penilaian Informatika Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-7-asesmen",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-INF-14",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Instrumen Asesmen & Rubrik Penilaian Informatika Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-8-asesmen",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-INF-15",
+        "kode_kategori": "ASESMEN",
+        "judul_dokumen": "Instrumen Asesmen & Rubrik Penilaian Informatika Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/17cpgKFwH5WbGQeM-D3-QMMnDgSfJv9MU",
+        "short_slug": "inf-9-asesmen",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
       }
     ]
   },
