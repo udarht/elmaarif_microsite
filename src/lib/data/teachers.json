@@ -622,6 +622,39 @@
         "short_slug": "ipa-9-cp-atp",
         "status_verifikasi": "LENGKAP",
         "updated_at": "2026-11-12"
+      },
+      {
+        "id_dokumen": "DOC-IPA-10",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Pembelajaran Interaktif & Digital IPA Kelas VII",
+        "kelas_target": "Kelas VII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-7-media-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-IPA-11",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Pembelajaran Interaktif & Digital IPA Kelas VIII",
+        "kelas_target": "Kelas VIII",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-8-media-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
+      },
+      {
+        "id_dokumen": "DOC-IPA-12",
+        "kode_kategori": "MEDIA_AJAR",
+        "judul_dokumen": "Media Pembelajaran Interaktif & Digital IPA Kelas IX",
+        "kelas_target": "Kelas IX",
+        "tipe_file": "GDRIVE_FOLDER",
+        "target_url": "https://drive.google.com/drive/folders/1c9_NZH2AkjbmxKD7MaiWyioekgOQOHRF",
+        "short_slug": "ipa-9-media-ajar",
+        "status_verifikasi": "LENGKAP",
+        "updated_at": "2026-11-13"
       }
     ]
   },
